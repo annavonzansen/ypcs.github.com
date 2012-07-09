@@ -1,0 +1,3 @@
+[submodule "projects/kuntavaalit2012"]
+	path = projects/kuntavaalit2012
+	url = git://github.com/ypcs/kuntavaalit2012.git
