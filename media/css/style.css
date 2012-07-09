@@ -45,8 +45,17 @@ h6 {
 }
 header {
   margin-bottom: 1.5em;
+  clear: both;
+}
+#main {
+  clear: left;
+}
+#mainmenu {
+  margin: 0 0 1em 1em;
+  float: right;
 }
 footer {
+  clear: both;
   margin-top: 1.5em;
   text-align: center;
 }
