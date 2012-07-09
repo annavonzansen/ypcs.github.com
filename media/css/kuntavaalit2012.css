@@ -2,13 +2,13 @@ html {
   background: url('../img/kuntavaalit_ftr.png') no-repeat bottom right #ffffff;
   padding-bottom: 93px;
   background-size: 100% auto;
-  height: 100%;
+  min-height: 100%;
 }
 body {
-  height: 100%;
+  min-height: 100%;
 }
 #page {
-  height: 100%;
+  min-height: 100%;
 }
 #main {
   min-height: 100%;
