@@ -16,3 +16,6 @@ h6 {
 .quiet {
   color: gray;
 }
+#page {
+  padding: 1em;
+}
