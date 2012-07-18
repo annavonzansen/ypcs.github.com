@@ -23,7 +23,7 @@ footer,
   -moz-border-radius: 1em;
   border-radius: 1em;
   border: 2px solid silver;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 #main {
   min-height: 100%;
