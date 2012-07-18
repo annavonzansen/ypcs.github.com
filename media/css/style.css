@@ -4,6 +4,7 @@ body {
 }
 a:link {
   text-decoration: underline;
+  color: #61bf1a;
 }
 a:hover {
   text-decoration: none;
