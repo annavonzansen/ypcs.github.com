@@ -107,6 +107,7 @@ header a:visited {
 }
 #mainmenu ul li {
   display: inline;
+  margin-right: 2em;
 }
 footer {
   clear: both;
