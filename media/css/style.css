@@ -134,7 +134,7 @@ table.pretty thead tr {
   color: #fff;
 }
 table.pretty tbody tr:nth-child(even) {
-  background: #4ba041;
+  background: #6dc263;
   color: #fff;
 }
 table.pretty tbody tr:nth-child(odd) {
