@@ -17,6 +17,13 @@ footer,
   margin-left: auto;
   margin-right: auto;
 }
+header {
+  -webkit-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  border: 2px solid silver;
+}
 #main {
   min-height: 100%;
 }
