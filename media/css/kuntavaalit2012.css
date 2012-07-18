@@ -20,3 +20,6 @@ footer,
 #main {
   min-height: 100%;
 }
+footer {
+  padding-bottom: 100px;
+}
