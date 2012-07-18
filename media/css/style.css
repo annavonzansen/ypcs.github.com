@@ -98,3 +98,7 @@ footer {
   margin-top: 1.5em;
   text-align: center;
 }
+footer .box {
+  width: 33%;
+  float: left;
+}
