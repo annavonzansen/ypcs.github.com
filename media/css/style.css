@@ -55,6 +55,13 @@ ul {
 .quiet {
   color: gray;
 }
+.notice {
+  color: red;
+}
+a[href^="tel:"] {
+  text-decoration: none;
+  color: #000000;
+}
 #page {
   padding: 1em;
 }
