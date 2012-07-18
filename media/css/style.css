@@ -99,7 +99,11 @@ footer {
   margin-top: 1.5em;
   text-align: center;
 }
+footer .sitemap {
+  margin-top: 2em;
+}
 footer .box {
   width: 33%;
   float: left;
+  overflow: auto;
 }
