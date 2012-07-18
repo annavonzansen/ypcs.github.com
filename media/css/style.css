@@ -67,6 +67,9 @@ ul {
 .vcard ul {
   list-style-type: none;
 }
+.clear {
+  clear: both;
+}
 a[href^="tel:"] {
   text-decoration: none;
   color: #000000;
