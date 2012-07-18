@@ -119,6 +119,7 @@ footer {
 footer .sitemap {
   margin-top: 2em;
   text-align: left;
+  clear: both;
 }
 footer .box {
   width: 33%;
