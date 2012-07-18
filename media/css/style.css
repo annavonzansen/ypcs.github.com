@@ -9,6 +9,9 @@ a:link {
 a:hover {
   text-decoration: none;
 }
+a:visited {
+  color: #5cb152;
+}
 h1,
 h2,
 h3,
