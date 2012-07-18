@@ -126,6 +126,9 @@ footer .box {
   float: left;
   overflow: auto;
 }
+footer .box .badges {
+  text-align: center;
+}
 table.pretty {
   width: 100%;
   margin: 1em 1em 1em 2em;
