@@ -83,8 +83,8 @@ header a:link {
   clear: left;
 }
 #mainmenu {
-  margin: 0 0 1em 1em;
-  float: right;
+  clear: both;
+  margin: 0;
 }
 #mainmenu ul {
   list-style-type: none;
