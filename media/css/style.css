@@ -59,6 +59,9 @@ ul {
 .notice {
   color: red;
 }
+.vcard ul {
+  list-style-type: none;
+}
 a[href^="tel:"] {
   text-decoration: none;
   color: #000000;
@@ -103,6 +106,7 @@ footer {
 }
 footer .sitemap {
   margin-top: 2em;
+  text-align: left;
 }
 footer .box {
   width: 33%;
