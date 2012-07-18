@@ -40,7 +40,8 @@ ul,
 ol,
 dl,
 pre,
-table {
+table,
+p {
   margin: 0.5em 1em 0.5em 2em;
 }
 ul {
