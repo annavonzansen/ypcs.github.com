@@ -125,3 +125,19 @@ footer .box {
   float: left;
   overflow: auto;
 }
+table.pretty th,
+table.pretty td {
+  padding: 0.25em;
+}
+table.pretty thead tr {
+  background: #5cb152;
+  color: #fff;
+}
+table.pretty tbody tr:nth-child(even) {
+  background: #5cb152;
+  color: #fff;
+}
+table.pretty tbody tr:nth-child(odd) {
+  background: #fff;
+  color: #000;
+}

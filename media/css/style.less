@@ -142,3 +142,30 @@ footer {
 		overflow: auto;
 	}
 }
+
+table.pretty {
+	th, td {
+		padding: 0.25em;
+	}
+	
+	thead {
+		tr {
+			background: @avoimempivihrea;
+			color: #fff;
+		}
+	}
+	
+	tbody {
+		tr {
+			&:nth-child(even) {
+				background: @avoimempivihrea;
+				color: #fff;
+			}
+			
+			&:nth-child(odd) {
+				background: #fff;
+				color: #000;
+			}
+		}
+	}
+}
