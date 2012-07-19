@@ -70,6 +70,23 @@ ul {
 .clear {
   clear: both;
 }
+iframe.fblike,
+iframe.fblikebox {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+}
+iframe.fblike {
+  width: 450px;
+  height: 80px;
+}
+iframe.fblike.nofaces {
+  height: 35px;
+}
+iframe.fblikebox {
+  width: 250px;
+  height: 558px;
+}
 a[href^="tel:"] {
   text-decoration: none;
   color: #000000;

@@ -19,3 +19,25 @@
 .clear {
 	clear: both;
 }
+
+iframe {
+	&.fblike, &.fblikebox {
+		background-color: transparent;
+		border: none;
+		overflow: hidden;
+	}
+	
+	&.fblike {
+		width: 450px;
+		height: 80px;
+		
+		&.nofaces {
+			height: 35px;
+		}
+	}
+		
+	&.fblikebox {
+		width: 250px;
+		height: 558px;
+	}
+}
