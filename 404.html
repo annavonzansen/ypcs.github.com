@@ -4,12 +4,17 @@
     <meta charset="utf-8"/>
     <title>Sivua ei löydy - Ville Korhonen</title>
     <meta name="author" content="Ville Korhonen" />
-    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/html5reset-1.6.1.css"/>
-    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/style.css"/>
-    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/kuntavaalit2012.css"/>
-	<link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/print.css" media="print"/>
+    <link rel="stylesheet" href="/media/css/html5reset-1.6.1.css"/>
+    <link rel="stylesheet" href="/media/css/style.css"/>
+    <link rel="stylesheet" href="/media/css/kuntavaalit2012.css"/>
+	<link rel="stylesheet" href="/media/css/print.css" media="print"/>
+    <link rel="stylesheet" href="/media/js/fullcalendar/fullcalendar.css"/>
+    <link rel="stylesheet" href="/media/js/fullcalendar/fullcalendar.print.css" media="print"/>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon"/>
+
     <!--[if lt IE 9]>
-    <script src="http://cdn.ypcs.fi/media/js/html5shiv.js"></script>
+    <script src="/media/js/html5shiv.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -43,20 +48,8 @@
         
         <footer>
 						<div class="sitemap">
-				<div class="box small contact">
-					<div class="vcard">
-	<span class="fn">Ville Korhonen</span>
-	<ul>
-		<li>email: <a href="mailto:ville@xd.fi" class="email me">ville@xd.fi</a></li>
-		<li>email: <a href="mailto:ville.korhonen@vihreat.fi" class="email me">ville.korhonen@vihreat.fi</a></li>
-		<li>gsm: <a href="tel:+358503032101" class="tel me cell"> +35850 303 2101</a></li>
-		<li>twitter: <a href="https://twitter.com/ypcs" class="url me twitter">ypcs</a></li>
-		<li>facebook (profile): <a href="https://www.facebook.com/ypoocs" class="url me facebook facebook-profile">ypoocs</a></li>
-		<li>facebook (page): <a href="https://www.facebook.com/vipekorh" class="url me facebook facebook-page">vipekorh</a></li>
-		<li>skype: <a href="skype://ypoocs?call" class="tel me skype">ypoocs</a></li>
-		<li>last.fm: <a href="https://www.last.fm/user/ypcs" class="url me">ypcs</a></li>
-	</ul>
-</div>
+				<div class="box facebook">
+					<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fvipekorh&amp;width=250&amp;height=558&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=false&amp;appId=192129430833705" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:558px;" allowTransparency="true"></iframe>
 				</div>
 				
 				<div class="box twitter">
@@ -90,20 +83,50 @@ new TWTR.Widget({
 </script>
 				</div>
 				
-				<div class="box facebook">
-					<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fvipekorh&amp;width=250&amp;height=450&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=false&amp;appId=192129430833705" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:450px;" allowTransparency="true"></iframe>
+				<div class="box small contact">
+					<div class="vcard">
+	<span class="fn">Ville Korhonen</span>
+	<ul>
+		<li>email: <a href="mailto:ville@xd.fi" class="email me">ville@xd.fi</a></li>
+		<li>email: <a href="mailto:ville.korhonen@vihreat.fi" class="email me">ville.korhonen@vihreat.fi</a></li>
+		<li>gsm: <a href="tel:+358503032101" class="tel me cell"> +35850 303 2101</a></li>
+		<li>twitter: <a href="https://twitter.com/ypcs" class="url me twitter">ypcs</a></li>
+		<li>facebook (profile): <a href="https://www.facebook.com/ypoocs" class="url me facebook facebook-profile">ypoocs</a></li>
+		<li>facebook (page): <a href="https://www.facebook.com/vipekorh" class="url me facebook facebook-page">vipekorh</a></li>
+		<li>skype: <a href="skype://ypoocs?call" class="tel me skype">ypoocs</a></li>
+		<li>last.fm: <a href="https://www.last.fm/user/ypcs" class="url me">ypcs</a></li>
+	</ul>
+</div>
+
+                    <hr/>                    
+                    <div class="badges">
+                        <a href="http://www.vihreat.fi/">
+                            <img src="/media/img/logo_vihreat.png" alt="Vihreät - De Gröna" width="250" height="50"/>
+                        </a>
+                    
+                        <a href="http://www.vino.fi/">
+                            <img src="/media/img/logo_vino.png" alt="Vihreiden nuorten ja opiskelijoiden liitto - ViNO ry" width="175" height="164"/>
+                        </a>
+                    </div>
 				</div>
+				
+				
+				
 			</div>
 
 			
-            <p class="small quiet">
-    &copy; 1998-2012 Ville Korhonen
+            <p class="small quiet clear">
+    &copy; 1998-2012 Ville Korhonen &middot; Sivujen lähdekoodi löytyy <a href="https://github.com/ypcs/ypcs.github.com">GitHubista</a>
 </p>
 
         </footer>
     </div>
-	<script src="http://cdn.ypcs.fi/media/js/jquery-1.8.2.min.js"></script>
-<script src="http://cdn.ypcs.fi/media/js/ypcsfi.js"></script>
+	<script src="/media/js/jquery-1.7.2.min.js"></script>
+<script src="/media/js/fullcalendar/fullcalendar.min.js"></script>
+<script src="/media/js/fullcalendar/gcal.js"></script>
+<script src="/media/js/ypcsfi.js"></script>
+
+
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
