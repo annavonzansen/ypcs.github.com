@@ -3,6 +3,10 @@ layout: default
 ---
 <div id="post">
     {{ content }}
+	
+	{% if page.tags %}
+		<p class="tags">{{ page.tags|array_to_sentence_string }}</p>
+	{% endif %}
 </div>
 
 <div id="related">
