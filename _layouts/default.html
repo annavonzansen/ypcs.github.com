@@ -2,39 +2,39 @@
 <html lang="fi">
 <head>
     <meta charset="utf-8"/>
-    <title>{{ page.title }} - {% include site-title %}</title>
-    <meta name="author" content="{% include site-author %}" />
+    <title>{{ page.title }} - {% include meta/site-title %}</title>
+    <meta name="author" content="{% include meta/site-author %}" />
 
-    {% include headers.html %}
+    {% include tpl/headers.html %}
 
 </head>
 <body>
     <div id="page">
         <header>
             <hgroup>
-                <h1><a href="/">{% include site-title %}</a></h1>
-                <h2 id="tagline">{% include site-tagline %}</h2>
+                <h1><a href="/">{% include meta/site-title %}</a></h1>
+                <h2 id="tagline">{% include meta/site-tagline %}</h2>
             </hgroup>
         </header>
         
         <nav id="mainmenu">
-            {% include menu.html %}
+            {% include tpl/menu.html %}
         </nav>
 		
         <div id="main">
-			{% include fblikebuttonnofaces.html %}
+			{% include ext/fblikebuttonnofaces.html %}
             {{ content }}        
-			{% include fblikebutton.html %}
+			{% include ext/fblikebutton.html %}
         </div>
         
         <footer>
-			{% include sitemap.html %}
+			{% include tpl/sitemap.html %}
 			
-            {% include footer.html %}
+            {% include tpl/footer.html %}
         </footer>
     </div>
-	{% include scripts.html %}
-    {% include analytics.html %}
-    {% include github.html %}
+	{% include tpl/scripts.html %}
+    {% include ext/analytics.html %}
+    {% include ext/github.html %}
 </body>
 </html>

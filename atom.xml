@@ -3,22 +3,22 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>{% include site-title %}</title>
-	<link href="{% include site-url %}/atom.xml" rel="self"/>
-	<link href="{% include site-url %}/"/>
+	<title>{% include meta/site-title %}</title>
+	<link href="{% include meta/site-url %}/atom.xml" rel="self"/>
+	<link href="{% include meta/site-url %}/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{% include site-url %}/</id>
+	<id>{% include meta/site-url %}/</id>
 	<author>
-    	<name>{% include site-author %}</name>
-		<email>{% include site-author-email %}</email>
+    	<name>{% include meta/site-author %}</name>
+		<email>{% include meta/site-author-email %}</email>
 	</author>
 
 	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="{% include site-url %}{{ post.url }}"/>
+		<link href="{% include meta/site-url %}{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>{% include site-url %}{{ post.id }}</id>
+		<id>{% include meta/site-url %}{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}
