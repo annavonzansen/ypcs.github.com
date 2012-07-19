@@ -7,6 +7,8 @@ layout: default
 	{% if page.tags %}
 		<p class="tags meta small">Avainsanat: {{ page.tags|array_to_sentence_string }}</p>
 	{% endif %}
+	
+	{% include ext/fbcomment.html %}
 </div>
 
 <div id="related">
