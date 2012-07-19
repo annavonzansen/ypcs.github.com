@@ -31,7 +31,7 @@ $(document).ready(function() {
         header: {
             left: 'title',
             center: '',
-            right: 'today month,basicWeek,agendaWeek prev,next'
+            right: 'today month,agendaWeek prev,next'
         }
     });
 });
