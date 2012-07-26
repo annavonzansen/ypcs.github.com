@@ -6,13 +6,15 @@
     <meta name="author" content="Ville Korhonen" />
 
         <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/html5reset-1.6.1.css"/>
-    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/style-1.0.0.css"/>
+    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/style-1.0.2.css"/>
     <link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/kuntavaalit2012-1.0.0.css"/>
-	<link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/print.css-1.0.0" media="print"/>
+	<link rel="stylesheet" href="http://cdn.ypcs.fi/media/css/print-1.0.0.css" media="print"/>
     <link rel="stylesheet" href="http://cdn.ypcs.fi/media/js/fullcalendar/fullcalendar.css"/>
     <link rel="stylesheet" href="http://cdn.ypcs.fi/media/js/fullcalendar/fullcalendar.print.css" media="print"/>
 
     <link rel="shortcut icon" href="http://cdn.ypcs.fi/favicon.ico" type="image/vnd.microsoft.icon"/>
+	
+	<link rel="alternate" href="http://ypcs.fi/atom.xml" type="application/atom+xml"/>
 
     <!--[if lt IE 9]>
     <script src="http://cdn.ypcs.fi/media/js/html5shiv.js"></script>
@@ -20,12 +22,12 @@
 
 
 </head>
-<body>
+<body class="">
     <div id="page">
         <header>
             <hgroup>
                 <h1><a href="/">Ville Korhonen</a></h1>
-                <h2>Tulevaisuuden visioita Hankasalmelle</h2>
+                <h2 id="tagline">Tulevaisuuden visioita Hankasalmelle</h2>
             </hgroup>
         </header>
         
@@ -41,18 +43,17 @@
         </nav>
 		
         <div id="main">
-			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fvipekorh&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=192129430833705" class="fblike nofaces"></iframe>
-            <h1>Sivua ei löydy</h1>
-
-<p>Hakemaasi sivua ei löytynyt.</p>
+            <h1 class="page-title">Sivua ei löydy</h1>
+			<div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="false" data-action="like" data-colorscheme="light"></div>
+            <p>Hakemaasi sivua ei löytynyt.</p>
         
-			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fvipekorh&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=192129430833705" class="fblike"></iframe>
+			<div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="true" data-action="like" data-colorscheme="light"></div>
         </div>
         
         <footer>
 						<div class="sitemap">
 				<div class="box facebook">
-					<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fvipekorh&amp;width=250&amp;height=558&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=false&amp;appId=192129430833705" class="fblikebox"></iframe>
+					<div class="fb-like-box" data-href="https://www.facebook.com/vipekorh" data-width="250" data-show-faces="true" data-stream="true" data-header="false"></div>
 				</div>
 				
 				<div class="box twitter">
@@ -117,7 +118,7 @@ new TWTR.Widget({
 				
 			</div>
 
-			
+			<hr/>
             <p class="small quiet clear">
     &copy; 1998-2012 Ville Korhonen &middot; Sivujen lähdekoodi löytyy <a href="https://github.com/ypcs/ypcs.github.com">GitHubista</a>
 </p>
@@ -128,8 +129,14 @@ new TWTR.Widget({
 <script src="http://cdn.ypcs.fi/media/js/fullcalendar/fullcalendar.min.js"></script>
 <script src="http://cdn.ypcs.fi/media/js/fullcalendar/gcal.js"></script>
 <script src="http://cdn.ypcs.fi/media/js/ypcsfi-1.0.0.js"></script>
-
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=203639063004777";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -147,3 +154,5 @@ new TWTR.Widget({
 
 </body>
 </html>
+<!-- Compiled: 2012-07-26T21:58:11+03:00 -->
+<!-- Original URL: http://ypcs.fi/404tpl.html -->
