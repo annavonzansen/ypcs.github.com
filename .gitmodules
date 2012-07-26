@@ -1,9 +1,6 @@
 [submodule "projects/kuntavaalit2012"]
 	path = projects/kuntavaalit2012
 	url = git://github.com/ypcs/kuntavaalit2012.git
-[submodule "media/ext/openlayers"]
-	path = media/ext/openlayers
-	url = git://github.com/openlayers/openlayers.git
 [submodule "projects/web-tests"]
 	path = projects/web-tests
 	url = git@github.com:ypcs/web-tests.git
