@@ -1,0 +1,1 @@
+{% if page.categories %} {{ page.categories|array_to_sentence_string }} {% endif %}
