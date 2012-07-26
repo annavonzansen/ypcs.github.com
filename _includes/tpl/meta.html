@@ -1,0 +1,28 @@
+<div class="meta">
+    <ul>
+
+    {% if page.tags %}
+        <li id="meta-tags">Avainsanat:&nbsp;
+            <ul class="page-tags">
+                {% for tag in page.tags %}
+                <li>{{ tag }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endif %}
+    
+    {% if page.categories %}
+        <li id="meta-categories">Kategoriat:&nbsp;
+            <ul class="page-categories">
+                {% for cat in page.categories %}
+                <li>{{ cat }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endif %}
+    
+    <li id="meta-compiletime">
+        {{ site.time }}
+    </li>    
+    </ul>    
+</div>
