@@ -53,8 +53,10 @@ function drawLikeChart(uuid, e) {
 //google.setOnLoadCallback(drawChart);
 
 $(document).ready(function() {
-//    var uuids = document.location.hash.substring(1).split(',');
-    var uuids = ['bf8df143-18b9-492d-ae66-d41b3e54f5be'];
+    var uuids = document.location.hash.substring(1).split(',');
+    if (uuids.length == 0) {
+        uuids = ['bf8df143-18b9-492d-ae66-d41b3e54f5be'];
+    }
     
     for (i=0; i<uuids.length; i++) {
         if (uuids[i].length != 36) {continue;}
