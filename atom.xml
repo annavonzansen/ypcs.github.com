@@ -3,14 +3,14 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>{% include meta/site-title %}</title>
+	<title>{{ site.site_title }}</title>
 	<link href="{{ site.site_url }}/atom.xml" rel="self"/>
 	<link href="{{ site.site_url }}/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ site.site_url }}/</id>
 	<author>
-    	<name>{% include meta/site-author %}</name>
-		<email>{% include meta/site-author-email %}</email>
+    	<name>{{ site.site_author }}</name>
+		<email>{{ site.site_author_email }}</email>
 	</author>
 
 	{% for post in site.posts %}

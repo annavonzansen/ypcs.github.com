@@ -2,8 +2,8 @@
 <html lang="fi" manifest="{{ site.site_url }}/html_manifest.txt">
 <head>
     <meta charset="utf-8"/>
-    <title>{{ page.title }} - {% include meta/site-title %}</title>
-    <meta name="author" content="{% include meta/site-author %}" />
+    <title>{{ page.title }} - {{ site.site_title }}</title>
+    <meta name="author" content="{{ site.site_author }}" />
 
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/html5reset-1.6.1.css"/>
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/style-1.0.8.css"/>

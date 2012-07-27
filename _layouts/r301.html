@@ -2,8 +2,8 @@
 <html lang="fi">
 <head>
     <meta charset="utf-8"/>
-    <title>Redirect to {{ page.redirect }} - {% include meta/site-title %}</title>
-    <meta name="author" content="{% include meta/site-author %}" />
+    <title>Redirect to {{ page.redirect }} - {{ site.site_title }}</title>
+    <meta name="author" content="{{ site.site_author }}" />
     <meta http-equiv="Refresh" content="0;URL={{ page.redirect }}"/>
     <meta name="robots" content="noindex,follow"/>
 </head>
