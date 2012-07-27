@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8"/>
+    <title>Redirect to {{ page.redirect }} - {% include meta/site-title %}</title>
+    <meta name="author" content="{% include meta/site-author %}" />
+    <meta http-equiv="Refresh" content="0;URL={{ page.redirect }}"/>
+    <meta name="robots" content="noindex,follow"/>
+</head>
+<body>
+    <p>Redirecting to <a href="{{ page.redirect }}">{{ page.redirect }}</a></p>
+    {{ content }}
+</body>
+</html>
+<!-- Compiled: {{ site.time | date_to_xmlschema }} -->
+<!-- Original URL: {% include meta/site-url %}{{ page.url }} -->
