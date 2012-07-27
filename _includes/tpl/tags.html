@@ -1,3 +1,7 @@
-{% if page.tags %}
-<!-- TODO: show tags -->
-{% endif %}
+    {% if page.tags %}
+            <ul class="page-tags">
+                {% for tag in page.tags %}
+                <li>{{ tag }}</li>
+                {% endfor %}
+            </ul>
+    {% endif %}

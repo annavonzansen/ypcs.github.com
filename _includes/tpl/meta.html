@@ -1,25 +1,14 @@
 <div class="meta">
     <ul>
-
-    {% if page.tags %}
-        <li id="meta-tags">Avainsanat:&nbsp;
-            <ul class="page-tags">
-                {% for tag in page.tags %}
-                <li>{{ tag }}</li>
-                {% endfor %}
-            </ul>
-        </li>
-    {% endif %}
+		<li id="meta-page-tags">
+			<span class="dsc">Avainsanat:</span> 
+			{% include tpl/tags.html %}
+    	</li>
     
-    {% if page.categories %}
-        <li id="meta-categories">Kategoriat:&nbsp;
-            <ul class="page-categories">
-                {% for cat in page.categories %}
-                <li>{{ cat }}</li>
-                {% endfor %}
-            </ul>
-        </li>
-    {% endif %}
+		<li id="meta-page-categories">
+			<span class="dsc">Kategoriat:</span>
+			{% include tpl/categories.html %}
+		</li>
     
     <li id="meta-compiletime">
         {{ site.time }}
