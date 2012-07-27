@@ -182,6 +182,7 @@ table.pretty tbody tr:nth-child(odd) {
   border: 1px solid silver;
   padding: 0.5em;
   color: gray;
+  font-size: 0.85em;
 }
 .meta ul {
   list-style-type: none;
