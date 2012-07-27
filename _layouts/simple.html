@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="fi">
-<head>
-    <meta charset="utf-8"/>
-    <title>{{ page.title }} - {% include meta/site-title %}</title>
-    <meta name="author" content="{% include meta/site-author %}" />
-
-    {% include tpl/headers.html %}
-
-</head>
-<body class="simple">
+{% include tpl/_header.html %}
     <div id="page">
         <div id="main">
 		    {{ content }}        
-			{% include ext/fblikebutton.html %}
         </div>
     </div>
-	{% include tpl/scripts.html %}
-    {% include ext/analytics.html %}
-</body>
-</html>
-<!-- Compiled: {{ site.time | date_to_xmlschema }} -->
-<!-- Original URL: {% include meta/site-url %}{{ page.url }} -->
+{% include tpl/_footer.html %}
