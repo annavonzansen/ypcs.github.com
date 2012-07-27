@@ -29,8 +29,10 @@
         </div>
         
         <footer>
+{% unless page.nositemap %}
 			{% include tpl/sitemap.html %}
 			<hr/>
+{% endunless %}
             {% include tpl/footer.html %}
         </footer>
     </div>
