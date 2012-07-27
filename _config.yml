@@ -2,3 +2,5 @@ markdown: rdiscount
 pygments: true
 exclude: ['README.md']
 permalink: pretty
+site_url: http://ypcs.fi
+cdn_url: http://cdn.ypcs.fi
