@@ -1,0 +1,7 @@
+CACHE MANIFEST
+/media/img/
+/media/css/
+/media/js/
+#NETWORK: -> files that are available only when connected
+#FALLBACK: url to be replaced + url which replaces while offline
+
