@@ -5,7 +5,22 @@
     <title>{{ page.title }} - {% include meta/site-title %}</title>
     <meta name="author" content="{% include meta/site-author %}" />
 
-    {% include tpl/headers.html %}
+    <link rel="stylesheet" href="{% include meta/cdn-url %}/media/css/html5reset-1.6.1.css"/>
+    <link rel="stylesheet" href="{% include meta/cdn-url %}/media/css/style-1.0.8.css"/>
+    <link rel="stylesheet" href="{% include meta/cdn-url %}/media/css/kuntavaalit2012-1.0.0.css"/>
+	<link rel="stylesheet" href="{% include meta/cdn-url %}/media/css/print-1.0.0.css" media="print"/>
+    <link rel="stylesheet" href="{% include meta/cdn-url %}/media/js/fullcalendar/fullcalendar.css"/>
+    <link rel="stylesheet" href="{% include meta/cdn-url  %}/media/js/fullcalendar/fullcalendar.print.css" media="print"/>
+
+    <link rel="shortcut icon" href="{% include meta/cdn-url %}/favicon.ico" type="image/vnd.microsoft.icon"/>
+	
+	<link rel="alternate" href="{% include meta/site-url %}/atom.xml" type="application/atom+xml"/>
+	
+	<link rel="canonical" href="{% include meta/site-url %}{{ page.url }}"/>
+
+    <!--[if lt IE 9]>
+    <script src="{% include meta/cdn-url %}/media/js/html5shiv.js"></script>
+    <![endif]-->
 
 </head>
 <body class="{% include tpl/category-class %}">
