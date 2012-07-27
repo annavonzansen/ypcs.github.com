@@ -26,7 +26,7 @@
 			{% include ext/fblikebuttonnofaces.html %}
             {{ content }}        
 			{% include ext/fblikebutton.html %}
-            {% include tpl/meta.html %}
+{% unless page.nometa %}            {% include tpl/meta.html %}{% endunless %}
         </div>
         
         <footer>
