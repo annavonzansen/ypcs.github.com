@@ -22,11 +22,13 @@ layout: nil
   {% endfor %}
 
   {% for page in site.html_pages %}
+  {% unless page.private %}
   <url>
     <loc>{% include meta/site-url %}{{ page.url }}</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
     {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
   </url>
+  {% endunless %}
   {% endfor %}
 </urlset>
