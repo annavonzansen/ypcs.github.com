@@ -2,6 +2,7 @@
 layout: default
 ---
 <div id="post">
+    {% if page.image %}<img src="{{ site.cdn_url }}/{{ page.image.src }}" alt="{{ page.image.alt }}"/>{% endif %}
     {{ content }}
 	
 	{% if page.tags %}
