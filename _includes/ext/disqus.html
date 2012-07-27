@@ -2,6 +2,9 @@
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'ypcs'; // required: replace example with your forum shortname
+            {% if page.categories %}
+            //var disqus_category_id = '{{ page.categories }}';
+            {% endif %}
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
