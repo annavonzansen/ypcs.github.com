@@ -3,4 +3,4 @@
 	url = git://github.com/ypcs/kuntavaalit2012.git
 [submodule "projects/web-tests"]
 	path = projects/web-tests
-	url = git@github.com:ypcs/web-tests.git
+	url = git://github.com/ypcs/web-tests.git
