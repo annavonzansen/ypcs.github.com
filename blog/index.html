@@ -5,6 +5,6 @@ title: Blog
 
 <ul>
 {% for post in site.posts %}
-    <li>{{ post.date }} <a href="{% include meta/site-url %}{{ post.url }}">{{ post.title }}</a></li>
+    <li>{{ post.date | date_to_string }} <a href="{% include meta/site-url %}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
