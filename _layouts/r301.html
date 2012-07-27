@@ -10,7 +10,4 @@
 <body>
     <p>Redirecting to <a href="{{ page.redirect }}">{{ page.redirect }}</a></p>
     {{ content }}
-</body>
-</html>
-<!-- Compiled: {{ site.time | date_to_xmlschema }} -->
-<!-- Original URL: {{ site.site_url }}{{ page.url }} -->
+{% include tpl/_footer.html %}
