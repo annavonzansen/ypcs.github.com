@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="fi" manifest="{{ site.site_url }}/html_manifest.txt">
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ site.language }}" manifest="{{ site.site_url }}/html_manifest.txt"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ site.language }}" manifest="{{ site.site_url }}/html_manifest.txt"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ site.language }}" manifest="{{ site.site_url }}/html_manifest.txt"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ site.language }}" manifest="{{ site.site_url }}/html_manifest.txt"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }} - {{ site.site_title }}</title>
     <meta name="author" content="{{ site.site_author }}" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/html5reset-1.6.1.css"/>
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/style-1.0.8.css"/>
@@ -26,3 +33,4 @@
 
 </head>
 <body class="{% include tpl/category-class %}">
+<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
