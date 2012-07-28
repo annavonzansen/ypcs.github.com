@@ -1,0 +1,66 @@
+//@import "define.less";
+//@import "buttons.less";
+
+form {
+/*    margin-top: 2em;
+    margin-bottom: 2em;*/
+    
+    fieldset {
+/*        margin: 0.5em;*/
+        border: 1px solid @color_quiet;
+        
+        legend {
+/*            font-weight: bold;
+            margin-top: 0.5em;
+            margin-bottom: 0.25em;
+            margin-left: 1em;
+            text-transform: uppercase;*/
+        }
+    }
+    
+    label {
+/*        font-weight: bold;
+        position: relative;
+        clear: left;
+        float: left;
+        width: @block_default_width;
+        margin-right: 1%;
+        padding-top: 0.35em;
+        text-align: right;*/
+    }
+    
+    input {
+        border-radius: @radius_default;
+        border: 1px solid @color_quiet;
+        
+        &[type=submit] {
+            .button-green();
+            
+            &[disabled] {
+                .button-gray();
+            }
+        }
+        
+        &[type=reset] {
+            .button-red();
+        }
+        
+        &[type=button] {
+            .button-gray();
+        }
+    }
+    
+    input[type=text], input[type=email], input[type=url], textarea {
+//        font-size: 1.2em;
+    }
+    
+    button {
+        .button-gray();
+    }
+    
+    p {
+        &.field {
+//            clear: both;
+        }
+    }
+}
