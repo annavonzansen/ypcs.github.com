@@ -1,3 +1,13 @@
+{% unless page.noscripts %}
 <script src="{{ site.cdn_url }}/media/js/jquery-1.7.2.min.js"></script>
 <script src="{{ site.cdn_url }}/media/js/ypcsfi-1.0.1.js"></script>
+
+{% if page.scripts %}
+{% for s in page.scripts %}
+<script src="{{ site.cdn_url }}/{{ s }}"></script>
+{% endfor %}
+{% endif %}
+
+
 {% include ext/fbsdk.html %}
+{% endunless %}
