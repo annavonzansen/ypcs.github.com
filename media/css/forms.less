@@ -34,19 +34,19 @@ form {
         border: 1px solid @color_quiet;
         
         &[type=submit] {
-            .button.green;
+            .button-green();
             
             &[disabled] {
-                .button.gray;
+                .button-gray();
             }
         }
         
         &[type=reset] {
-            .button.red;
+            .button-red();
         }
         
         &[type=button] {
-            .button.gray;
+            .button-gray();
         }
     }
     
@@ -55,7 +55,7 @@ form {
     }
     
     button {
-        .button.gray;
+        .button-gray();
     }
     
     p {
