@@ -1,5 +1,12 @@
 	{% include tpl/scripts.html %}
-    {% include ext/analytics.html %}
+	
+	{% if page.scripts %}
+		{% for s in page.scripts %}
+		<script src="{{ site.cdn_url }}/{{ s }}"></script>
+		{% endfor %}
+	{% endif %}
+    
+	{% include ext/analytics.html %}
     {% include ext/github.html %}
 </body>
 </html>

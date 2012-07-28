@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/style-1.0.8.css"/>
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/kuntavaalit2012-1.0.1.css"/>
 	<link rel="stylesheet" href="{{ site.cdn_url }}/media/css/print-1.0.0.css" media="print"/>
-    <link rel="stylesheet" href="{{ site.cdn_url }}/media/js/fullcalendar/fullcalendar.css"/>
-    <link rel="stylesheet" href="{{ site.cdn_url }}/media/js/fullcalendar/fullcalendar.print.css" media="print"/>
+
+	{% if page.styles %}
+		{% for s in page.styles %}
+		<script src="{{ site.cdn_url }}/{{ s }}"></script>
+		{% endfor %}
+	{% endif %}
+
 
     <link rel="shortcut icon" href="{{ site.cdn_url }}/favicon.ico" type="image/vnd.microsoft.icon"/>
 	
