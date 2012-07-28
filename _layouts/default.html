@@ -12,7 +12,9 @@
         </nav>
 		
         <div id="main">
+			{% unless page.notitle %}
             <h1 class="page-title">{{ page.title }}</h1>
+			{% endunless %}
 			{% include ext/fblikebuttonnofaces.html %}
             {{ content }}        
 			{% include ext/fblikebutton.html %}
