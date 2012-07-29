@@ -13,7 +13,12 @@
 		
         <div id="main">
 			{% unless page.notitle %}
-            <h1 class="page-title">{{ page.title }}</h1>
+			<hgroup id="page-header">
+				<h1 class="page-title">{{ page.title }}</h1>
+				{% if page.description %}
+				<h2 class="page-description">{{ page.description }}</h2>
+				{% endif %}
+			</hgroup>
 			{% endunless %}
 			{% include ext/fblikebuttonnofaces.html %}
             {{ content }}        
