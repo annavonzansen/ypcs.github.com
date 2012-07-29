@@ -3,7 +3,7 @@ pygments: true
 exclude: ['README.md']
 permalink: pretty
 site_url: http://ypcs.fi
-site_title: Ville Korhonen
+site_title: Ville Korhonen (ypcs.fi)
 site_tagline: Tulevaisuuden visioita Hankasalmelle
 site_author: Ville Korhonen
 site_author_email: ville@xd.fi
