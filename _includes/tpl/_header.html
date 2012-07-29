@@ -25,6 +25,11 @@
 	
 	{% if page.description %}
 	<meta property="og:description" content="{{ page.description | strip_newlines }}"/>
+	<meta name="description" content="{{ page.description | strip_newlines }}"/>
+	{% endif %}
+	
+	{% if page.tags %}
+	<meta name="keywords" content="{{ page.tags | array_to_string }}"/>
 	{% endif %}
 
     <link rel="stylesheet" href="{{ site.cdn_url }}/media/css/html5reset-1.6.1.css"/>
