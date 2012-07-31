@@ -1,20 +1,18 @@
-directory: ../media
+directory: media
 url: /media
 debug: True
 updater: timestamp
 
+
 bundles:
-    css-all:
-        filters: cssmin,less
-        output: gen/css-all.css
+    css_all:
+        filters: cssmin
+        output: gen/css_all-%(version)s.css
         contents:
-            - css/common.less
-            - css/style.less
-            - css/theme_default.less
-            - css/theme_kuntavaalit2012.less
-    js-all:
+            - css/html5reset-1.6.1.css
+    js_all:
         filters: jsmin
-        output: gen/js-all.css
+        output: gen/js-all-%(version)s.css
         contents:
             - js/jquery-1.7.2.min.js
             - js/ypcsfi.js
