@@ -32,6 +32,6 @@ skype: ypoocs
 
 google_api_key: AIzaSyCHoFj29ohnnuctk1KaDHdMCMuM5NB9Pcw
 maps_zoom: 13
-maps_size: 200x150
+maps_size: 200x200
 maps_type: roadmap
 maps_sensor: false
