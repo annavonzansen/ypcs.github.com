@@ -1,9 +1,9 @@
 {% unless page.noscripts %}
-<script src="{{ site.cdn }}/media/gen/scripts-{{ site.scripts_version }}.js"></script>
+<script async="async" src="{{ site.cdn }}/media/gen/scripts-{{ site.scripts_version }}.js"></script>
 
 {% if page.scripts %}
 {% for s in page.scripts %}
-<script src="{{ site.cdn }}/{{ s }}"></script>
+<script async="async" src="{{ site.cdn }}/{{ s }}"></script>
 {% endfor %}
 {% endif %}
 
