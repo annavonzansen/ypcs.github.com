@@ -4,22 +4,27 @@ debug: True
 updater: timestamp
 
 bundles:
-    css_less:
+    css_less_common:
         filters: less
-        output: gen/css_less.css.tmp
+        output: gen/less_common.css.tmp
         contents:
             - css/common.less
             - css/style.less
+            - css/print.less
+    css_less_theme:
+        filters: less
+        output: gen/less_theme.css.tmp
+        contents:
             - css/theme_default.less
             - css/theme_kuntavaalit2012.less
             - css/theme_misc.less
-            - css/print.less
     css_all:
         filters: cssmin
         output: gen/styles-%(version)s.css
         contents:
             - css/html5reset-1.6.1.css
-            - gen/css_less.css.tmp
+            - gen/less_common.css.tmp
+            - gen/less_theme.css.tmp
     js_all:
         filters: jsmin
         output: gen/scripts-%(version)s.js
