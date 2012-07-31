@@ -37,25 +37,19 @@
 	<meta name="keywords" content="{{ page.tags | array_to_string }}"/>
 	{% endif %}
 
-    <link rel="stylesheet" href="{{ site.cdn }}/media/css/html5reset-1.6.1.css"/>
-    <link rel="stylesheet" href="{{ site.cdn }}/media/css/common-1.0.3.css"/>
+    <link rel="stylesheet" href="{{ site.cdn }}/media/gen/style-{{ site.style_version }}.css"/>
 
-{% unless page.nocss %}
-    <link rel="stylesheet" href="{{ site.cdn }}/media/css/style-1.2.2.css"/>
-	<link rel="stylesheet" href="{{ site.cdn }}/media/css/print-1.0.0.css" media="print"/>
-
+{% comment %}
 	{% if page.theme %}
 	<link rel="stylesheet" href="{{ site.cdn }}/media/css/theme_{{ page.theme }}.css"/>
-	{% else %}
-	<link rel="stylesheet" href="{{ site.cdn }}/media/css/theme_{{ site.theme }}.css"/>
 	{% endif %}
+{% endcomment}
 
 	{% if page.styles %}
 		{% for s in page.styles %}
-		<script src="{{ site.cdn }}/{{ s }}"></script>
+		<link rel="stylesheet" href="{{ site.cdn }}/{{ s }}"/>
 		{% endfor %}
 	{% endif %}
-{% endunless %}
 
 	<script src="{{ site.cdn }}/media/js/modernizr.custom.95715.js"></script>
 
