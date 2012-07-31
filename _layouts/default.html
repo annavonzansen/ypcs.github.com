@@ -20,9 +20,13 @@
 				{% endif %}
 			</hgroup>
 			{% endunless %}
+			{% if page.facebook == 'both' or page.facebook == 'top' %}
 			{% include ext/fblikebuttonnofaces.html %}
-            {{ content }}        
+			{% endif %}
+            {{ content }}
+			{% if page.facebook == 'both' or page.facebook == 'bottom' %}
 			{% include ext/fblikebutton.html %}
+			{% endif %}
         </div>
         
         <footer>
