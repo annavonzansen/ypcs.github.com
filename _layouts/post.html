@@ -1,13 +1,21 @@
 ---
 layout: default
 ---
-<div id="post">
-    {% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}"/>{% endif %}
+<div class="post">
+    <div class="post-meta">
+		{% if page.location %}
+		<p class="location">{{ page.location }}<img src="http://maps.googleapis.com/maps/api/staticmap?center={{ page.location | cgi_escape }}&amp;zoom={{ site.maps_zoom }}&amp;{{ site.maps_size }}&amp;sensor={{ site.maps_sensor }}&amp;maptype={{ site.maps_type }}&amp;key={{ site.google_api_key }}" alt="(Map, {{ page.location }})" class="location-map"/>
+		{% endif %}
+		
+		{% if page.tags %}
+			<p class="tags meta small">Avainsanat: {{ page.tags|array_to_sentence_string }}</p>
+		{% endif %}
+	</div>
+	{% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}"/>{% endif %}
+	
     {{ content }}
 	
-	{% if page.tags %}
-		<p class="tags meta small">Avainsanat: {{ page.tags|array_to_sentence_string }}</p>
-	{% endif %}
+
 	
 	<h3>Kommentit</h3>
 	{% include ext/fbcomment.html %}
