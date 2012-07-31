@@ -20,6 +20,7 @@ layout: nil
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>{{ site.url }}{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
+		<link rel="payment" href="https://flattr.com/submit/auto?url={{ site.url | cgi_escape }}{{ post.url | cgi_escape }}&amp;user_id={{ site.flattr }}" type="text/html"/>
 	</entry>
 	{% endfor %}
 </feed>
