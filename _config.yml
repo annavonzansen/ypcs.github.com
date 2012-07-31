@@ -12,7 +12,10 @@ email: ville@xd.fi
 
 markdown: rdiscount
 pygments: true
-exclude: ['README.md']
+exclude:
+    - README.md
+    - requirements.txt
+
 permalink: pretty
 
 # Username(s) for misc services
