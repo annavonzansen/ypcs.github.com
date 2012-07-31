@@ -3,13 +3,26 @@ url: /media
 debug: True
 updater: timestamp
 
+config:
+    lessc_bin: /usr/local/bin/lessc
 
 bundles:
+    css_less:
+        filters: less
+        output: gen/css_less.css
+        contents:
+            - css/common.less
+            - css/style.less
+            - css/theme_default.less
+            - css/theme_kuntavaalit2012.less
+            - css/theme_misc.less
+            - css/print.less
     css_all:
         filters: cssmin
         output: gen/css_all-%(version)s.css
         contents:
             - css/html5reset-1.6.1.css
+            - gen/css_less.css
     js_all:
         filters: jsmin
         output: gen/js-all-%(version)s.css
