@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="http://ypcs.fi/404tpl.html"
+URL="http://ypcs.fi/404tpl/"
 WGET=`which wget`
 GIT=`which git`
 
