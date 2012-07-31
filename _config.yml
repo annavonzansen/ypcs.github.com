@@ -1,11 +1,15 @@
+url: http://ypcs.fi
+cdn: http://cdn.ypcs.fi
+title: Ville Korhonen (ypcs.fi)
+description: Tulevaisuuden visioita Hankasalmelle
+language: fi
+
+author: Ville Korhonen
+email: ville@xd.fi
+
+
 markdown: rdiscount
 pygments: true
 exclude: ['README.md']
 permalink: pretty
-site_url: http://ypcs.fi
-site_title: Ville Korhonen (ypcs.fi)
-site_tagline: Tulevaisuuden visioita Hankasalmelle
-site_author: Ville Korhonen
-site_author_email: ville@xd.fi
-cdn_url: http://cdn.ypcs.fi
-language: fi
+

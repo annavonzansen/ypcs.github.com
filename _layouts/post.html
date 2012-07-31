@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="post">
-    {% if page.image %}<img src="{{ site.cdn_url }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}"/>{% endif %}
+    {% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}"/>{% endif %}
     {{ content }}
 	
 	{% if page.tags %}
