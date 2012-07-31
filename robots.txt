@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /photos/
 Disallow: /media/img/
+Disallow: /2012/07/14/kihveli-soikoon.html
