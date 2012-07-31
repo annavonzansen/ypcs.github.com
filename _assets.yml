@@ -9,7 +9,7 @@ config:
 bundles:
     css_less:
         filters: less
-        output: gen/css_less.css
+        output: gen/css_less.css.tmp
         contents:
             - css/common.less
             - css/style.less
@@ -19,13 +19,13 @@ bundles:
             - css/print.less
     css_all:
         filters: cssmin
-        output: gen/css_all-%(version)s.css
+        output: gen/styles-%(version)s.css
         contents:
             - css/html5reset-1.6.1.css
-            - gen/css_less.css
+            - gen/css_less.css.tmp
     js_all:
         filters: jsmin
-        output: gen/js-all-%(version)s.css
+        output: gen/scripts-%(version)s.css
         contents:
             - js/jquery-1.7.2.min.js
             - js/ypcsfi.js
