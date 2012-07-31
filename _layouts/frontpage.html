@@ -26,10 +26,10 @@
         </div>
         
         <footer>
-{% if page.sitemap %}
+{% unless page.nositemap %}
 			{% include tpl/sitemap.html %}
 			<hr/>
-{% endif %}
+{% endunless %}
             {% include tpl/footer.html %}
         </footer>
     </div>
