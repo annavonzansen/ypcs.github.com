@@ -14,7 +14,7 @@
 	
 	<meta property="og:title" content="{{ page.title }}"/>
 	<meta property="og:type" content="article"/>
-	<meta property="og:url" content="{{ site.site_url }}{{ page.url }}"/>
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 	{% if page.image %}
 	<meta property="og:image" content="{{ site.cdn }}/{{ page.image }}"/>
 	{% else %}
@@ -51,9 +51,9 @@
 
     <link rel="shortcut icon" href="{{ site.cdn }}/favicon.ico" type="image/vnd.microsoft.icon"/>
 	
-	<link rel="alternate" href="{{ site.site_url }}/atom.xml" type="application/atom+xml"/>
+	<link rel="alternate" href="{{ site.url }}/atom.xml" type="application/atom+xml"/>
 	
-	<link rel="canonical" href="{{ site.site_url }}{{ page.url }}"/>
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
 
 </head>
 <body class="{% include tpl/category-class %}">
