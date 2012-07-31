@@ -1,0 +1,20 @@
+directory: ../media
+url: /media
+debug: True
+updater: timestamp
+
+bundles:
+    css-all:
+        filters: cssmin,less
+        output: gen/css-all.css
+        contents:
+            - css/common.less
+            - css/style.less
+            - css/theme_default.less
+            - css/theme_kuntavaalit2012.less
+    js-all:
+        filters: jsmin
+        output: gen/js-all.css
+        contents:
+            - js/jquery-1.7.2.min.js
+            - js/ypcsfi.js
