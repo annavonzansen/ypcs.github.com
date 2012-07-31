@@ -11,4 +11,4 @@ private: true
  - add CC license information
  - separate layout & other re-usable files to different repo
  - add apple-touch-icons (img, link)
- 
+ - create ads using analytics campaign sources (paper, web, facebook etc.)
