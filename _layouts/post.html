@@ -3,6 +3,8 @@ layout: default
 ---
 <div class="post">
     <div class="post-meta">
+		{% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}" class="page-image popup"/>{% endif %}
+		
 		{% if page.location %}
 		<p class="location">{{ page.location }}<img src="http://maps.googleapis.com/maps/api/staticmap?center={{ page.location | cgi_escape }}&zoom={{ site.maps_zoom }}&size={{ site.maps_size }}&sensor={{ site.maps_sensor }}&maptype={{ site.maps_type }}&markers=color:green%7C{{ page.location | cgi_escape }}" alt="(Map, {{ page.location }})" class="location-map"/>
 		{% endif %}
@@ -11,7 +13,6 @@ layout: default
 			<p class="tags meta small">Avainsanat: {{ page.tags|array_to_sentence_string }}</p>
 		{% endif %}
 	</div>
-	{% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}"/>{% endif %}
 	
     {{ content }}
 	
