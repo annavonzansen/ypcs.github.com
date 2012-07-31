@@ -1,0 +1,194 @@
+html,
+body,
+#page,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+a:link {
+  text-decoration: underline;
+  color: #61bf1a;
+}
+a:hover {
+  text-decoration: none;
+  color: #61bf1a;
+}
+a:visited {
+  color: #5cb152;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5cb152;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+h1 {
+  margin-top: 0.5em;
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1.1em;
+}
+p {
+  margin: 0.5em 1em 0.5em 0;
+  line-height: 1.1;
+}
+ul,
+ol,
+dl,
+pre,
+table {
+  margin: 0.5em 1em 0.5em 2em;
+  line-height: 1.1;
+}
+ul {
+  list-style-type: square;
+}
+a[href^="tel:"] {
+  text-decoration: none;
+  color: #000000;
+}
+#page {
+  padding: 1em;
+}
+header {
+  margin-bottom: 1.5em;
+  clear: both;
+}
+header h1,
+header h2 {
+  margin: 0;
+}
+header h2 {
+  font-size: 1.5em;
+}
+header a:link {
+  color: #000000;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header a:visited {
+  color: #000000;
+}
+#main {
+  clear: left;
+}
+#mainmenu {
+  clear: both;
+  margin: 0 0 2em 0;
+}
+#mainmenu ul {
+  list-style-type: none;
+  margin: 0.25em 0 0.25em 0;
+}
+#mainmenu ul li {
+  display: inline;
+  margin-right: 2em;
+}
+footer {
+  clear: both;
+  margin-top: 2.5em;
+  text-align: center;
+  border-top: 1px dotted silver;
+}
+footer .sitemap {
+  margin-top: 2em;
+  text-align: left;
+  clear: both;
+}
+footer .box {
+  width: 33%;
+  float: left;
+  overflow: auto;
+}
+footer .box .badges {
+  text-align: center;
+}
+table.pretty {
+  width: 100%;
+  margin: 1em 1em 1em 2em;
+}
+table.pretty .col-description {
+  width: 100%;
+}
+table.pretty th,
+table.pretty td {
+  padding: 0.25em;
+}
+table.pretty thead tr {
+  background: #5cb152;
+  color: #fff;
+}
+table.pretty tbody tr:nth-child(even) {
+  background: #8fe485;
+  color: #000;
+}
+table.pretty tbody tr:nth-child(odd) {
+  background: #fff;
+  color: #000;
+}
+.meta {
+  border: 1px solid silver;
+  padding: 0.5em;
+  color: gray;
+  font-size: 0.85em;
+}
+.meta ul {
+  list-style-type: none;
+  margin-left: none;
+}
+.meta ul li ul li {
+  display: inline;
+}
+a.rss {
+  padding-left: 16px;
+  background: url('../img/rss.png') no-repeat left center transparent;
+}
+aside {
+  font-size: 0.85em;
+  border: 1px solid silver;
+  padding: 0.5em;
+}
+aside.full {
+  margin: 1em;
+}
+aside.right {
+  width: 30%;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+#page-header .page-description {
+  color: gray;
+  font-size: 1.2em;
+  font-style: italic;
+}
+header,
+#main,
+footer,
+#mainmenu {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
