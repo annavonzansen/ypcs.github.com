@@ -14,9 +14,10 @@ pygments: true
 exclude: ['README.md']
 permalink: pretty
 
-# Username(s) in misc services
+# Username(s) for misc services
 github: ypcs
 flattr: ypcs
 twitter: ypcs
 facebook: ypoocs
 feedburner: ypcs
+lastfm: ypcs
