@@ -29,6 +29,8 @@
 	{% if page.description %}
 	<meta property="og:description" content="{{ page.description | strip_newlines }}"/>
 	<meta name="description" content="{{ page.description | strip_newlines }}"/>
+	{% else %}
+	<meta property="og:description" content="{{ page.content | truncatewords:15 | strip_html | strip_newlines | escape }}">
 	{% endif %}
 	
 	{% if page.tags %}
