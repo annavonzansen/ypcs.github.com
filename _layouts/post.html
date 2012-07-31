@@ -4,7 +4,7 @@ layout: default
 <div class="post">
     <div class="post-meta">
 		{% if page.location %}
-		<p class="location">{{ page.location }}<img src="http://maps.googleapis.com/maps/api/staticmap?center={{ page.location | cgi_escape }}&zoom={{ site.maps_zoom }}&size={{ site.maps_size }}&sensor={{ site.maps_sensor }}&maptype={{ site.maps_type }}&key={{ site.google_api_key }}&markers=color:green%7C{{ page.location | cgi_escape }}" alt="(Map, {{ page.location }})" class="location-map"/>
+		<p class="location">{{ page.location }}<img src="http://maps.googleapis.com/maps/api/staticmap?center={{ page.location | cgi_escape }}&zoom={{ site.maps_zoom }}&size={{ site.maps_size }}&sensor={{ site.maps_sensor }}&maptype={{ site.maps_type }}{‰ comment %}&key={{ site.google_api_key }}{% endcomment %}&markers=color:green%7C{{ page.location | cgi_escape }}" alt="(Map, {{ page.location }})" class="location-map"/>
 		{% endif %}
 		
 		{% if page.tags %}
