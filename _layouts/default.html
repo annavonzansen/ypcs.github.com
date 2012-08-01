@@ -22,14 +22,12 @@
 			{% endunless %}
 			
 			{% if page.facebook == 'both' or page.facebook == 'top' %}
-			{% include ext/fblikebuttonnofaces.html %}
+			{% include ext/fblikebutton.html %}
 			{% endif %}
             
 			{{ content }}
 			
-			{% if page.facebook == 'both' or page.facebook == 'bottom' %}
-			{% include ext/fblikebutton.html %}
-			{% endif %}
+			{% include ext/share.html %}
         </div>
         
         <footer>
