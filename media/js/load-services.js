@@ -11,4 +11,4 @@ function load_script(d, s, id, url) {
 
 (load_script(document, "script", "twitter-wjs", "https://platform.twitter.com/widgets.js"));
 (load_script(document, "script", "google-plusone", "https://apis.google.com/js/plusone.js"));
-(load_script(document, "script", "facebook-jssdk", "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=203639063004777"));
+(load_script(document, "script", "facebook-jssdk", "https://connect.facebook.net/en_US/all.js"));
