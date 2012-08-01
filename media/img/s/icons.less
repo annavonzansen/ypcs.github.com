@@ -1,13 +1,18 @@
+@width: 23px;
+@height: 23px;
+@hspace: 2px;
+@vspace: 8px;
+
 .sprite(@x: 0, @y: 0) {
-	@hspace: 2px;
-	@vspace: 8px;
-	@width: 23px;
-	@height: 23px;
-	background-position: (@x * (@hspace + @width)) (@y * (@vspace + @height));
+	background-position: -(@x * (@hspace + @width)) -(@y * (@vspace + @height));
 }
 
 .socialico {
 	background-image: url('z.png');
+	background-repeat: no-repeat;
+	padding-left: (@width + @hspace);
+	
+	
 	&.icon-amazon {.sprite(0, 0);}
 	&.icon-facebook {.sprite(1, 0);}
 	&.icon-google {.sprite(2,0);}
