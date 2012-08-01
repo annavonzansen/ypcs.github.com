@@ -1,3 +1,87 @@
 .socialico {
   background-image: url('z.png');
 }
+.socialico.icon-amazon {
+  background-position: 0px 0px;
+}
+.socialico.icon-facebook {
+  background-position: 25px 0px;
+}
+.socialico.icon-google {
+  background-position: 50px 0px;
+}
+.socialico.icon-skype {
+  background-position: 75px 0px;
+}
+.socialico.icon-linkedin {
+  background-position: 0px 31px;
+}
+.socialico.icon-twitter {
+  background-position: 25px 31px;
+}
+.socialico.icon-unknown1 {
+  background-position: 50px 31px;
+}
+.socialico.icon-twitter2 {
+  background-position: 75px 31px;
+}
+.socialico.icon-paypal {
+  background-position: 0px 62px;
+}
+.socialico.icon-quora {
+  background-position: 25px 62px;
+}
+.socialico.icon-feed {
+  background-position: 50px 62px;
+}
+.socialico.icon-stumbleupon {
+  background-position: 75px 62px;
+}
+.socialico.icon-twitter3 {
+  background-position: 0px 93px;
+}
+.socialico.icon-blogger {
+  background-position: 25px 93px;
+}
+.socialico.icon-vimeo {
+  background-position: 50px 93px;
+}
+.socialico.icon-wordpress {
+  background-position: 75px 93px;
+}
+.socialico.icon-youtube {
+  background-position: 0px 124px;
+}
+.socialico.icon-plus {
+  background-position: 25px 124px;
+}
+.socialico.icon-share {
+  background-position: 50px 124px;
+}
+.socialico.icon-heart {
+  background-position: 75px 124px;
+}
+.socialico.icon-picasa {
+  background-position: 0px 155px;
+}
+.socialico.icon-video {
+  background-position: 25px 155px;
+}
+.socialico.icon-lastfm {
+  background-position: 50px 155px;
+}
+.socialico.icon-location {
+  background-position: 75px 155px;
+}
+.socialico.icon-qik {
+  background-position: 0px 186px;
+}
+.socialico.icon-soundcloud {
+  background-position: 25px 186px;
+}
+.socialico.icon-check {
+  background-position: 50px 186px;
+}
+.socialico.icon-retweet {
+  background-position: 75px 186px;
+}
