@@ -17,3 +17,4 @@ description: Instructions to embed social media services into your own website
 ## TODO ##
  - Google+, Facebook, Twitter (the most important ones...)
  - Last.fm
+ - should be in finnish....

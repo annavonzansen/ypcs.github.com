@@ -2,6 +2,7 @@
 layout: default
 title: TODO
 private: true
+language: en
 ---
  - add Flattr links to all content
  - add Twitter 'follow me' badge to topright

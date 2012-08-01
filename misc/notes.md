@@ -2,6 +2,7 @@
 layout: default
 title: Misc notes
 private: true
+language: en
 ---
 
  - Jekyll (@ GitHub Pages) might fail silently if:
