@@ -7,7 +7,7 @@ language: fi
 theme: kuntavaalit2012
 
 style_version: b863f1bc
-scripts_version: 87f373b3
+scripts_version: 4dfda173
 
 author: Ville Korhonen
 email: ville@xd.fi
