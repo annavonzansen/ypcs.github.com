@@ -24,7 +24,7 @@ bundles:
         contents:
             - css/html5reset-1.6.1.css
             - gen/less_common.css.tmp
-			- img/somicro-sprite/somicro-icons.css
+            - img/somicro-sprite/somicro-icons.css
             - gen/less_theme.css.tmp
     js_all:
         filters: jsmin
