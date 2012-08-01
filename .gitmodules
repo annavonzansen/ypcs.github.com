@@ -13,3 +13,6 @@
 [submodule "projects/my-internets"]
 	path = projects/my-internets
 	url = git://github.com/ypcs/my-internets.git
+[submodule "blog/_posts"]
+	path = blog/_posts
+	url = git://github.com/ypcs/my-blog.git
