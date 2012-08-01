@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ site.language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ site.language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ site.language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ site.language }}"  prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<!DOCTYPE html>{% capture language %}{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}{% endcapture %}
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ language }}"  prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
