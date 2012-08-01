@@ -12,3 +12,5 @@ private: true
  - separate layout & other re-usable files to different repo
  - add apple-touch-icons (img, link)
  - create ads using analytics campaign sources (paper, web, facebook etc.)
+ - use geo (microformat) in blog posts (and other geotagged content), see http://microformats.org/wiki/geo (could be page.latlong in `GEO:37.386013;-122.082932
+` format, which is easy to split even with liquid template engine & reuse)
