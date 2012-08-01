@@ -19,7 +19,7 @@ bundles:
             - css/theme_kuntavaalit2012.less
             - css/theme_misc.less
     css_all:
-        filters: cssmin
+        filters: cssrewrite,cssmin
         output: gen/styles-%(version)s.css
         contents:
             - css/html5reset-1.6.1.css
