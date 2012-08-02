@@ -9,15 +9,21 @@ bundles:
         output: gen/less_common.css.tmp
         contents:
             - css/common.less
-            - css/style.less
             - css/print.less
     css_less_theme:
         filters: less
         output: gen/less_theme.css.tmp
         contents:
+            - css/style.less
             - css/theme_default.less
             - css/theme_kuntavaalit2012.less
             - css/theme_misc.less
+    css_common:
+        filters: cssrewrite,cssmin
+        output: gen/common-%(version)s.css
+        contents:
+            - css/html5reset-1.6.1.css
+            - gen/less_common.css.tmp
     css_all:
         filters: cssrewrite,cssmin
         output: gen/styles-%(version)s.css
