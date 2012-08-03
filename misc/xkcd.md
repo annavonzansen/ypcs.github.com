@@ -5,7 +5,7 @@ title: My favorite XKCD comics
 description: List of my favorite XKCD comics from xkcd.com
 ---
 
-*All comics (c) Randall Munroe, [xkcd.com](http://xkcd.com/), CC-AT-NC*
+*All comics (c) Randall Munroe, [xkcd.com](http://xkcd.com/), CC-BY-NC*
 
 ## 695: Spirit
 [![xkcd #695](http://imgs.xkcd.com/comics/spirit.png)](http://xkcd.com/695/)
