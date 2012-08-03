@@ -8,7 +8,7 @@ description: List of all posts and pages in my site
 <ul>
   {% for page in site.html_pages %}
   {% unless page.private %}
-  <li>{{ page.url }} &mdash; <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+  <li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a> <span class="path">{{ page.url }}</span></li>
   {% endunless %}
   {% endfor %}
 </ul>
