@@ -7,6 +7,9 @@ description: List of my favorite XKCD comics from xkcd.com
 
 *All comics (c) Randall Munroe, [xkcd.com](http://xkcd.com/), CC-BY-NC*
 
+## 1077: Home Organization
+[![xkcd #1077](http://imgs.xkcd.com/comics/home_organization.png)](http://xkcd.com/1077)
+
 ## 695: Spirit
 [![xkcd #695](http://imgs.xkcd.com/comics/spirit.png)](http://xkcd.com/695/)
 
