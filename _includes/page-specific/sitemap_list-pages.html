@@ -1,7 +1,7 @@
 <ul>
-  {% for page in site.html_pages %}
-  {% unless page.private %}
-  <li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a> ({% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}) &mdash; {% if page.description %}{{ page.description }} &mdash; {% endif %}<span class="path quiet">{{ page.url }}</span></li>
+  {% for pg in site.html_pages %}
+  {% unless pg.private %}
+  <li><a href="{{ site.url }}{{ pg.url }}">{{ pg.title }}</a> ({% if pg.language %}{{ pg.language }}{% else %}{{ site.language }}{% endif %}) &mdash; {% if pg.description %}{{ pg.description }} &mdash; {% endif %}<span class="path quiet">{{ pg.url }}</span></li>
   {% endunless %}
   {% endfor %}
 </ul>
