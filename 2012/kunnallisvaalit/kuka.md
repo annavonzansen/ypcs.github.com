@@ -4,6 +4,8 @@ title: Kuka?
 categories:
  - me
  - kuntavaalit-2012
+language: fi
+description: Tietoa ehdokkaasta
 ---
 
 

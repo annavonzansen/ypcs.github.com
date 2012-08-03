@@ -4,6 +4,7 @@ title: Sidonnaisuudet
 categories:
  - me
  - kuntavaalit-2012
+description: Tietoa sidonnaisuuksistani syksyllä 2012
 ---
 
 Alla on listattuna kaikki tämänhetkiset sidonnaisuuteni -
