@@ -7,20 +7,10 @@ language: en
 ---
 
 <h2>Pages</h2>
-<ul>
-  {% for page in site.html_pages %}
-  {% unless page.private %}
-  <li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a> ({% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}) &mdash; {% if page.description %}{{ page.description }} &mdash; {% endif %}<span class="path quiet">{{ page.url }}</span></li>
-  {% endunless %}
-  {% endfor %}
-</ul>
+{% include page-specific/sitemap_list-pages.html %}
 
 <h2>Posts</h2>
-<ul>
-	{% for post in site.posts %}
-	<li><span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+{% include page-specific/sitemap_list-posts.html %}
 
 
 <p class="small quiet"><a href="{{ site.url }}/sitemap.xml" type="application/xml" rel="alternate">Sitemap XML</a></p>
