@@ -1,6 +1,5 @@
 ---
 layout: default
-private: true
 title: My favorite XKCD comics
 description: List of my favorite XKCD comics from xkcd.com
 ---
