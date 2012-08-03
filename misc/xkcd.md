@@ -2,6 +2,7 @@
 layout: default
 title: My favorite XKCD comics
 description: List of my favorite XKCD comics from xkcd.com
+language: en
 ---
 
 *All comics (c) Randall Munroe, [xkcd.com](http://xkcd.com/), CC-BY-NC*
