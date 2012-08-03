@@ -1,8 +1,8 @@
-<!DOCTYPE html>{% capture language %}{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}{% endcapture %}
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ language }}" prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ language }}"  prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<!DOCTYPE html>{% capture language %}{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}{% endcapture %}{% capture html_properties %}lang="{{ language }}" prefix="cc: http://creativecommons.org/ns# og: http://ogp.me/ns# dct: http://purl.org/dc/terms/"{% endcapture %}
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" {{ html_properties }}> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" {{ html_properties }}> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" {{ html_properties }}> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" {{ html_properties }}> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
