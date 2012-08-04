@@ -19,6 +19,9 @@ language: en
 ## 674: Natural Parenting
 [![xkcd #674](http://imgs.xkcd.com/comics/natural_parenting.png)](http://xkcd.com/674/)
 
+## 530: I'm An Idiot
+[![xkcd #530](http://imgs.xkcd.com/comics/im_an_idiot.png)](http://xkcd.com/530/)
+
 ## 387: Advanced Technology
 [![xkcd #387](http://imgs.xkcd.com/comics/advanced_technology.png)](http://xkcd.com/387/)
 
