@@ -7,6 +7,9 @@ language: en
 
 *All comics (c) Randall Munroe, [xkcd.com](http://xkcd.com/), CC-BY-NC*
 
+## 1106: ADD
+[![xkcd #1106](http://imgs.xkcd.com/comics/add.png)](http://xkcd.com/1106/)
+
 ## 1077: Home Organization
 [![xkcd #1077](http://imgs.xkcd.com/comics/home_organization.png)](http://xkcd.com/1077)
 
