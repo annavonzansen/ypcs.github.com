@@ -62,7 +62,7 @@ $(document).ready(function() {
         if (uuids[i].length != 36) {continue;}
         var e = document.createElement('div');
         e.id = 'chart-' + uuids[i];
-        document.getElementById('main').appendChild(e);
+        document.getElementById('charts').appendChild(e);
     
         drawLikeChart(uuids[i], e);
     }
