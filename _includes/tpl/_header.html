@@ -73,6 +73,12 @@
 			{% endif %}
 		{% endfor %}
 	{% endif %}
+
+    {% if page.scripts_head %}
+        {% for s in page.scripts_head %}
+        <script src="{{ s }}"></script>
+        {% endfor %}
+    {% endif %}
 </head>
 <body class="layout-{{ page.layout }}{% include tpl/category-class %}{% if page.theme %} theme-{{ page.theme }}{% endif %}">
 <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
