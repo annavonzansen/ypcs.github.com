@@ -54,7 +54,7 @@ function drawLikeChart(uuid, e) {
 
 $(document).ready(function() {
     var uuids = document.location.hash.substring(1).split(',');
-    if (uuids.length == 0) {
+    if ((uuids.length == 0) || (uuids[0].length == 0)) {
         uuids = ['bf8df143-18b9-492d-ae66-d41b3e54f5be'];
     }
     
