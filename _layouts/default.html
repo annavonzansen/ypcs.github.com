@@ -3,7 +3,9 @@
         <header>
             <hgroup>
                 <h1><a href="/">{{ site.title }}</a></h1>
+{% unless page.nositedescription %}
                 <h2 id="tagline">{{ site.description }}</h2>
+{% endunless %}
             </hgroup>
         </header>
         
