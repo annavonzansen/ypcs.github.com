@@ -8,11 +8,11 @@
 {% endunless %}
             </hgroup>
         </header>
-        
+{% unless page.nomenu %}        
         <nav id="mainmenu">
             {% include tpl/menu.html %}
         </nav>
-		
+{% endunless %}
         <div id="main" role="main">
 			{% unless page.notitle %}
 			<hgroup id="page-header">
