@@ -7,6 +7,6 @@ cssutils==0.9.10b1
 distribute==0.6.24
 glue==0.2.7
 jsmin==2.0.2
-webassets==0.8.dev
+git+https://github.com/miracle2k/webassets.git#egg=webassets
 wsgiref==0.1.2
 yuicompressor==2.4.7
