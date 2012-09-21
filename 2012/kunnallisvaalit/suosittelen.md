@@ -34,6 +34,8 @@ private: true
 ### Vantaa
  - Simo Raittila
 
+
+
 ..[Heikki Sairanen]: http://sairanen.org/
 ..[Aleksi Laine]: http://aleksilaine.blogspot.fi/
 ..[Ilona Toivanen]: http://ilonatoivanen.fi
