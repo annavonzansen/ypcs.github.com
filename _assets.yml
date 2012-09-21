@@ -15,8 +15,8 @@ bundles:
         contents:
             - css/theme_ypcsfi.scss
             - css/theme_vihreat.scss
-            - css/theme_kuntavaalit2012.scss
             - css/theme_hankasalmi.scss
+            - css/theme_kuntavaalit2012.scss
     css_all:
         filters: cssrewrite,cssmin
         output: gen/styles-%(version)s.css
