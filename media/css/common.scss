@@ -1,0 +1,149 @@
+@import "define.scss";
+
+html, body {
+    font-family: $font_default;
+}
+
+a {
+    &:link {
+        text-decoration: underline;
+    }
+    
+    &:visited {
+        text-decoration: underline;
+    }
+    
+    &:active {
+        text-decoration: none;
+    }
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font_title;
+    margin-top: $x * 2;
+    margin-bottom: $x;
+}
+
+h1 {
+    font-size: $x * 10; 
+}
+
+h2 {
+    font-size: $x * 8;
+}
+
+h3 {
+    font-size: $x * 7.5;
+}
+
+h4 {
+    font-size: $x * 6.5;
+}
+
+h5 {
+    font-size: $x * 6;
+}
+
+h6 {
+    font-size: $x * 5;
+}
+
+p, pre, table, ul, ol, dl {
+    margin: $x * 2;
+}
+
+ul, ol {
+    margin-left: $x * 8;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.quiet {
+    color: $color_quiet;
+    background: transparent;
+}
+
+.small {
+    font-size: smaller;
+}
+
+//.statusbox (@color) {
+//    .gradient-background(@color, @color - @color_gradient_diff);
+//    .rounded-corners(@radius_default);
+//}
+
+.status {
+    margin: 0.5em 0 1em 0;
+    
+    > li {
+        padding: 0.5em;
+        margin: 0.25em;
+    }
+    
+    &.error, .error {
+//        .statusbox(@color_red);
+    }
+    
+    &.notice, .notice {
+//        .statusbox(@color_yellow);
+    }
+    
+    &.success, .success {
+//        .statusbox(@color_green);
+    }
+    
+    &.debug, .debug {
+//        .statusbox(@color_blue);
+    }
+}
+
+.dev {
+    section {
+        border: 1px dashed red;
+    }
+    
+    nav {
+        border: 1px dashed yellow;
+    }
+    
+    hgroup {
+        border: 1px dashed blue;
+    }
+    
+    a {
+        border: 1px dashed gray;
+    }
+    
+    ul, ol, dl {
+        border: 1px dashed green;
+    }
+    
+    pre, table {
+        border: 1px dashed silver;
+    }
+    
+    li {
+        border: 1px dashed orange;
+    }
+}
+
+ul {
+    &.status {
+        list-style-type: none;
+    }
+}
+
+
+.notice {
+    color: red;
+}
+
+.clear {
+    clear: both;
+}
