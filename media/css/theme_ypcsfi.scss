@@ -146,6 +146,11 @@ header, #main, footer, #mainmenu {
 	padding: 0.5em;
 }
 
+.page-image {
+    float: right;
+    margin: 0 0 ($x * 2) ($x * 2);
+}
+
 @media all and (max-width: 800px) {
     #page {
         width: 100%;
