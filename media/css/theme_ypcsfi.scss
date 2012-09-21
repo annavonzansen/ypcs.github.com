@@ -47,6 +47,10 @@ header {
     background: #fff;
     background: rgba(255, 255, 255, 0.8);
     border-radius: $x * 2;
+    
+    .quiet {
+        color: #444;
+    }
 }
 
 footer {
