@@ -12,13 +12,13 @@ private: true
 ### Helsinki
  - Maria Ohisalo
  - Aaro Häkkinen
- - Lilja Tamminen
+ - [Lilja Tamminen][]
 
 ### Jyväskylä
- - Paloma Hannonen
+ - [Paloma Hannonen][]
 
 ### Tampere
- - Hanna Hakko
+ - [Hanna Hakko][]
 
 ### Turku
  - Aleksi Laine
@@ -30,3 +30,8 @@ private: true
 
 ### Vantaa
  - Simo Raittila
+
+
+..[Paloma Hannonen]: http://palomahannonen.fi
+  [Lilja Tamminen]: http://liljat.fi
+  [Hanna Hakko]: http://hannahakko.fi
