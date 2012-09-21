@@ -6,8 +6,9 @@ categories:
  - kuntavaalit-2012
 language: fi
 description: Tietoa ehdokkaasta
+image: photos/IMG_20120813_215646_s.jpg
+image_alt: Ville Korhonen (valokuva)
 ---
-
 
 Olen 26-vuotias yrittäjä ja opiskelija. Toimin vuonna 2012 [Keski-Suomen Vihreiden][]  varapuheenjohtajana, ja [Jyväskylän vihreiden nuorten ja opiskelijoiden][] hallituksessa.
 
