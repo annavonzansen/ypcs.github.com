@@ -6,3 +6,4 @@ ve
 *.tmp
 *.tmp.*
 photos
+.sass-cache
