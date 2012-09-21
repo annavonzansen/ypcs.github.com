@@ -26,8 +26,7 @@
 			{% if page.facebook == 'both' or page.facebook == 'top' %}
 			{% include ext/fblikebutton.html %}
 			{% endif %}
-            
-            {% if page.image %}<img src="{{ site.cdn }}/{{ page.image }}" alt="{% if page.image_alt %}{{ page.image_alt }}{% endif %}" class="page-image popup"/>{% endif %}
+
 			{{ content }}
 			
 			{% include ext/share.html %}
