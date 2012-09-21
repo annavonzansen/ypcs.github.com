@@ -78,7 +78,7 @@ ehdokkaaseen][].
 
 Jotain muuta?
 -------------
-
+<img src="http://cdn.ypcs.fi/photos/fail_avoimempiqr.jpg" alt="Epäonnistunutta kampanjamateriaalia" class="page-image"/>
 (tulossa)
 
   [Kerro kaverille]: #tue-kerrokaverille
