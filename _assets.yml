@@ -9,6 +9,7 @@ bundles:
         output: gen/common.tmp.css
         contents:
             - css/common.scss
+            - css/menu.scss
     css_theme:
         filters: scss
         output: gen/theme.tmp.css
