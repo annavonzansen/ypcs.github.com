@@ -37,7 +37,7 @@
 	<meta name="keywords" content="{{ page.tags | array_to_string }}"/>
 	{% endif %}
 
-    <link rel="stylesheet" href="{{ site.cdn }}/media/gen/styles-{{ site.style_version }}.css"/>
+    <link rel="stylesheet" href="{{ site.cdn }}/media/gen/styles-{{ site.style_version }}.css" title="Default theme"/>
 <!--    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml" />-->
     <link href="http://fonts.googleapis.com/css?family=Average|Open+Sans:300" rel="stylesheet"/>
 
@@ -49,7 +49,7 @@
 
 	{% if page.styles %}
 		{% for s in page.styles %}
-		<link rel="stylesheet" href="{{ site.cdn }}/{{ s }}"/>
+		<link rel="stylesheet" href="{{ site.cdn }}/{{ s }}" title="Alternate CSS"/>
 		{% endfor %}
 	{% endif %}
 
