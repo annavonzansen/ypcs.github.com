@@ -38,7 +38,7 @@ function drawLikeChart(uuid, e) {
         }
         
         var options = {
-            width: 800,
+            width: 700,
             height: 600,
 //            title: data.title,
             title: uuid,
