@@ -27,6 +27,11 @@ window.fbAsyncInit = function() {
         cookie: true,
         xfbml: false
     });
+
+// Test
+FB.api('/me', function(response) {
+alert('Your name is ' + response.name);
+});
 };
 
 (load_script(document, "script", "twitter-wjs", "https://platform.twitter.com/widgets.js"));
