@@ -53,7 +53,7 @@ h6 {
 }
 
 p, pre, table, ul, ol, dl {
-    margin: $x * 2;
+    margin: ($x * 2) ($x * 2) ($x * 4) ($x * 2);
 }
 
 ul, ol {
