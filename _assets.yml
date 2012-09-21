@@ -8,12 +8,12 @@ bundles:
         filters: sass
         output: gen/common.tmp.css
         contents:
-            - css/common.sass
+            - css/common.scss
     css_theme:
         filters: sass
         output: gen/theme.tmp.css
         contents:
-            - css/ypcsfi.sass
+            - css/ypcsfi.scss
     css_all:
         filters: cssrewrite,cssmin
         output: gen/styles-%(version)s.css
