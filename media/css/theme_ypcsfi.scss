@@ -2,8 +2,25 @@
 
 #page {
     padding: 1em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header, #main, footer {
     clear: both;
+}
+
+header {
+    text-align: center;
+}
+
+#mainmenu {
+    ul {
+        list-style-type: none;
+        
+        li {
+            display: inline;
+        }
+    }
 }
