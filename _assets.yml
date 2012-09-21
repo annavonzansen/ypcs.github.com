@@ -5,12 +5,12 @@ updater: timestamp
 
 bundles:
     css_common:
-        filters: sass
+        filters: scss
         output: gen/common.tmp.css
         contents:
             - css/common.scss
     css_theme:
-        filters: sass
+        filters: scss
         output: gen/theme.tmp.css
         contents:
             - css/theme_ypcsfi.scss

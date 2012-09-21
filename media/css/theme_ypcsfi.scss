@@ -1,1 +1,9 @@
-// TODO: ??
+// TODO: sivun peruslayout
+
+#page {
+    padding: 1em;
+}
+
+header, #main, footer {
+    clear: both;
+}
