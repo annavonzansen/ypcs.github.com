@@ -1,1 +1,20 @@
 // TODO: näytä hankasalmi-valokuva taustalla
+
+body {
+    background: url('http://cdn.ypcs.fi/media/img/bg_hankasalmi.jpg') fixed no-repeat bottom right transparent;
+}
+
+#page {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+header {
+    text-shadow: -1px -1px -1px #fff;
+}
+
+footer {
+    .quiet {
+        color: #444;
+    }
+}

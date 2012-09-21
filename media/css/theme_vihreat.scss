@@ -1,5 +1,4 @@
-// TODO: Vihreä värimaailma
-
+@import "define.scss";
 $vihreatvihrea: #61bf1a;
 $avoimempivihrea: #5cb152;
 $avoimempivihreareuna: #299e52;
@@ -7,4 +6,58 @@ $uusivihrea: #3e8804;
 
 h1, h2, h3, h4, h5, h6 {
     color: $uusivihrea;
+}
+
+header {
+    a {
+        &:link, &:visited {
+            color: $avoimempivihrea;
+            text-decoration: none;
+        }
+    }
+}
+
+#mainmenu {
+    background: $uusivihrea;
+    color: #fff;
+    
+    a {
+        &:link, &:visited {
+            color: #fff;
+        }
+    }
+}
+
+table.pretty {
+	width: 100%;
+	margin: ($x * 4) ($x * 4) ($x * 4) ($x * 8);
+	
+	.col-description {
+		width: 100%;
+	}
+	
+	th, td {
+		padding: $x;
+	}
+	
+	thead {
+		tr {
+			background: $avoimempivihrea;
+			color: #fff;
+		}
+	}
+	
+	tbody {
+		tr {
+			&:nth-child(even) {
+				background: $avoimempivihrea + #333333;
+				color: #000;
+			}
+			
+			&:nth-child(odd) {
+				background: #fff;
+				color: #000;
+			}
+		}
+	}
 }
