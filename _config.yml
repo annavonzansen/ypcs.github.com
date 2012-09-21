@@ -1,7 +1,7 @@
 url: http://ypcs.fi
-#cdn: http://cdn.ypcs.fi
+cdn: http://cdn.ypcs.fi
 #secure_cdn: https://d3i43hipit3ske.cloudfront.net
-cdn: https://d3i43hipit3ske.cloudfront.net
+#cdn: https://d3i43hipit3ske.cloudfront.net
 
 title: Ville Korhonen (ypcs.fi)
 description: Tulevaisuuden visioita Hankasalmelle
