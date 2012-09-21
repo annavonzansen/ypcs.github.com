@@ -8,6 +8,24 @@
     margin-right: auto;
 }
 
+@media all and (max-width: 800px) {
+    #page {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #mainmenu {
+        ul {
+            li {
+                display: list-item;
+            }
+        }
+    }
+}
+
+
+
 header, #main, footer {
     clear: both;
 }
