@@ -8,24 +8,6 @@
     margin-right: auto;
 }
 
-@media all and (max-width: 800px) {
-    #page {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media all and (max-width: 540px) {
-    #mainmenu {
-        ul {
-            li {
-                display: block;
-                padding: $x * 2;
-            }
-        }
-    }
-}
-
 header, #main, footer {
     clear: both;
 }
@@ -164,3 +146,21 @@ header, #main, footer, #mainmenu {
 	padding: 0.5em;
 }
 
+@media all and (max-width: 800px) {
+    #page {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #mainmenu {
+        ul {
+            li {
+                display: block;
+                padding: $x * 2;
+            }
+        }
+    }
+}
