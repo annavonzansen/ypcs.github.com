@@ -19,6 +19,16 @@ function load_script(d, s, id, url) {
     }
 }
 
+window.fbAsyncInit = function() {
+    FB.init({
+        appId: '479137325447561',
+        channelUrl: '//ypcs.fi/misc/channel/',
+        status: true,
+        cookie: true,
+        xfbml: false
+    });
+};
+
 (load_script(document, "script", "twitter-wjs", "https://platform.twitter.com/widgets.js"));
 (load_script(document, "script", "twitter-widget", "http://widgets.twimg.com/j/2/widget.js"));
 (load_script(document, "script", "google-plusone", "https://apis.google.com/js/plusone.js"));
