@@ -13,6 +13,9 @@ language: en
 ## 1077: Home Organization
 [![xkcd #1077](http://imgs.xkcd.com/comics/home_organization.png)](http://xkcd.com/1077)
 
+## 910: Permanence
+[![xkcd #910](http://imgs.xkcd.com/comics/permanence.png)](http://xkcd.com/910/)
+
 ## 695: Spirit
 [![xkcd #695](http://imgs.xkcd.com/comics/spirit.png)](http://xkcd.com/695/)
 
