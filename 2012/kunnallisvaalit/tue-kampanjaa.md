@@ -23,7 +23,7 @@ parasta - ei maksa mitään.
 
 Muista myös tykätä kampanjan Facebook-sivusta!
 
-{% include ext/fblikebutton.html %}
+<div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="true" data-action="like" data-colorscheme="light" data-href="https://www.facebook.com/vipekorh"></div>
 
 Lahjoita
 --------
