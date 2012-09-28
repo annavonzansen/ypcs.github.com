@@ -32,7 +32,7 @@ language: en
 [![xkcd #387](http://imgs.xkcd.com/comics/advanced_technology.png)](http://xkcd.com/387/)
 
 ## 386: Duty Calls
-[![xkcd #386](http://imgs.xkcd.com/comics/duty_calls.png_)](http://xkcd.com/386/)
+[![xkcd #386](http://imgs.xkcd.com/comics/duty_calls.png)](http://xkcd.com/386/)
 
 ## 353: Python
 [![xkcd #353](http://imgs.xkcd.com/comics/python.png)](http://xkcd.com/353/)
