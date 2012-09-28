@@ -21,7 +21,7 @@ Kerro ehdokkaasta kaverille, naapurille tai vaikka sukulaiselle -
 henkilökohtainen tuen ilmaiseminen tehoaa aina parhaiten, ja mikä
 parasta - ei maksa mitään.
 
-Muista myös tykätä kampanjan Facebook-sivusta!
+Muista myös tykätä [kampanjan Facebook-sivusta](https://www.facebook.com/vipekorh)!
 
 <div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="true" data-action="like" data-colorscheme="light" data-href="https://www.facebook.com/vipekorh"></div>
 
