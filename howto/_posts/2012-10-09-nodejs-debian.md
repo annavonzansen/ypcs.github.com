@@ -8,6 +8,7 @@ tags:
     - system administration
 categories: howto
 description: How to set-up node.js in Debian wheezy
+language: en
 ---
 
 # Installation
