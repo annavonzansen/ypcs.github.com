@@ -1,7 +1,8 @@
+{% if site.analytics_id %}
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-420043-25']);
+  _gaq.push(['_setAccount', '{{ site.analytics_id }}']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -11,3 +12,4 @@
   })();
 
 </script>
+{% endif %}

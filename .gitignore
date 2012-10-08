@@ -1,9 +1,11 @@
 *~
 .DS_Store
-_site
-ve
 /media/.webassets-cache
-*.tmp
-*.tmp.*
+media/.webassets-cache
 photos
 .sass-cache
+_site
+Thumbs.db
+*.tmp
+*.tmp.*
+ve
