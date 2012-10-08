@@ -54,8 +54,11 @@ Then, complete installation by running apt-get
 
 
 # Link to /usr/bin/node
-Currently
-    update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10    
+Currently *nodejs* package in Debian sid provides only `/usr/bin/nodejs`, and there exists lots of scripts which depend on `/usr/bin/node`, so they break when using node.js in Debian w/ default installation. Binary naming is caused by package *node* (Amateur Packet Radio Node program), which also provides `/usr/bin/node`. Debian package policy forbids conflicting binary naming, so node.js is renamed.
 
+You can fix this in a Debian way by using `update-alternatives`.
+    update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10
 
-<3
+Now node.js binary is linked to `/usr/bin/node`.
+
+**<3**
