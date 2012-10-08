@@ -14,13 +14,13 @@ language: en
 # Installation
 Node.js is currently available in Debian unstable (sid) repositories. You can add sid repositories to wheezy without mixing too much packages using apt-pinning.
 
-$EDITOR /etc/apt/preferences.d/999-pinning
+## /etc/apt/preferences.d/999-pinning
     # Packages from wheezy get priority 900
     Package: *
     Pin: release n=wheezy
     Pin-Priority: 900
 
-    # Well, I have also squeeze repositories enabled
+    # Well, I have also squeeze repositories enabled, but I prefer wheezy
     Package: *
     Pin: release n=squeeze
     Pin-Priority: 600
@@ -30,7 +30,7 @@ $EDITOR /etc/apt/preferences.d/999-pinning
     Pin: release o=Debian
     Pin-Priority: -10
 
-$EDITOR /etc/apt/sources.list
+## /etc/apt/sources.list
     deb http://ftp.fi.debian.org/debian/ wheezy main non-free contrib
     #deb-src http://ftp.fi.debian.org/debian/ wheezy main non-free contrib
     
