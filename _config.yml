@@ -36,3 +36,5 @@ maps_zoom: 13
 maps_size: 200x200
 maps_type: roadmap
 maps_sensor: false
+
+coverphoto: s3/2012/kunnallisvaalit/coverphoto.png
