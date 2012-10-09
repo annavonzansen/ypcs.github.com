@@ -9,7 +9,7 @@
             </hgroup>
 
             {% if site.coverphoto %}
-                <a href="{{ site.url }}"><img src="{{ site.coverphoto }}" alt="{{ site.title }}" class="cover"/></a>
+                <a href="{{ site.url }}"><img src="{{ site.cdn }}/{{ site.coverphoto }}" alt="{{ site.title }}" class="cover"/></a>
             {% endif %}
         </header>
 {% unless page.nomenu %}        
