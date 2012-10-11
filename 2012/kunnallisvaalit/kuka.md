@@ -12,7 +12,7 @@ image_alt: Ville Korhonen (valokuva)
 
 Olen 26-vuotias yrittäjä ja opiskelija. Toimin vuonna 2012 [Keski-Suomen Vihreiden][]  varapuheenjohtajana, ja [Jyväskylän vihreiden nuorten ja opiskelijoiden][] hallituksessa.
 
-Nykyään asun Hankasalmen Kovalanmäellä, olen melko tuore hankasalmelainen, mutta sukujuureni ovat syvällä Hankasalmen historiassa ja kunnallispolitiikassa [Juho Laitinen](http://www.eduskunta.fi/faktatmp/hetekatmp/ed910883e-su.htm) on iso-isoisäni, ja asustelen samalla tilalla kuin hän vuosisata sitten.
+Nykyään asun Hankasalmen Kovalanmäellä, olen melko tuore hankasalmelainen, mutta sukujuureni ovat syvällä Hankasalmen historiassa ja kunnallispolitiikassa - [Juho Laitinen](http://www.eduskunta.fi/faktatmp/hetekatmp/ed910883e-su.htm) on iso-isoisäni, ja asustelen samalla Makkolan tilalla kuin hän vuosisata sitten.
 
 
 ## Historia
