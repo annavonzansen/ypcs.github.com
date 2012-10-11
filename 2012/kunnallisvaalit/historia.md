@@ -9,6 +9,8 @@ description: Kuka olen ja mistä tulen?
 
 Alunperin olen kotoisin Tuusulan Jokelasta (kyllä, _sieltä_ Jokelasta), josta olen Espoon ja Jyväskylän kautta päätynyt Hankasalmen Kovalanmäelle. Vaikka olenkin melko tuore hankasalmelainen, olen viettänyt paikkakunnalla paljon aikaa jo lapsesta lähtien.  Sukujuureni ovat syvällä Hankasalmen historiassa ja kunnallispolitiikassa - [Juho Laitinen](http://www.eduskunta.fi/faktatmp/hetekatmp/ed910883e-su.htm) on iso-isoisäni, ja asustelen samalla Makkolan tilalla Kovalanmäellä kuin hän vuosisata sitten.
 
+Lapsuuteni asuin tosiaan Tuusulassa, aivan pääkaupunkiseudun kupeessa. Kävin samalla paikkakunnalla niin peruskoulun kuin lukionkin, ja valmistuin vuonna 2005 ylioppilaaksi.
+
 Heti ylioppilastutkinnon suoritettuani sain opiskelupaikan TKK:lta Espoon Otaniemestä, ja sitten päädyin suorittamaan asepalvelusta Karjalan prikaatiin Vekaranjärvelle (II/05). Yksikkönä oli Esikuntakomppania, koulutushaarana sotilaspoliisi. Johtajakauden vietin toimistoaliupseerina, ja kotiuduin kesällä 2006, sotilaspassissa muistaakseni arvosanoina erinomainen ja hyvä. 6, 9, 12, intti oli ihan jees, näkipähän kunnon leikkauksen omasta ikäluokastaan, ja sen, miten erilaisia ihmiset voivat arvomaailmoiltaan olla. Hyvin opettavainen kokemus kaikin puolin - vaikka välillä ketuttikin ankarasti, niin ihan positiivisesti olen sitä aikaa muistellut.
 
 Intin jälkeen vuorossa oli opiskeluiden aloitus Otaniemessä, tietoliikennetekniikan koulutusohjelmassa. Opiskelin pari vuotta, mutta sitten koin, että tarvitsen maisemanvaihdosta, ja muutin Jyväskylään, jossa aloitin opiskelut Jyväskylän yliopistolla IT-tiedekunnassa vuonna 2009. Opinnot jatkuvat yhä, ja valmistuminen häämöttää jossain tulevaisuudessa.
