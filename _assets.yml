@@ -17,7 +17,6 @@ bundles:
             - css/theme_ypcsfi.scss
             - css/theme_vihreat.scss
             - css/theme_hankasalmi.scss
-            - css/theme_kuntavaalit2012.scss
     css_theme_code:
         filters: scss
         output: gen/theme_code.tmp.css
