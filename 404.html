@@ -27,15 +27,20 @@
 	
 	
 
-    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/gen/styles-e7979e40.css" title="Default theme"/>
+    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/gen/styles-683bae27.css" title="Default theme"/>
 <!--    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://ypcs.fi/sitemap.xml" />-->
     <link href="http://fonts.googleapis.com/css?family=Average|Open+Sans:300" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://cdn.ypcs.fi/media/gen/styles-683bae27.css" title="Default theme"/>
+<!--
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://ypcs.fi/sitemap.xml" />
+-->
 
 
 
 	
 
-	<script src="http://cdn.ypcs.fi/media/js/modernizr.custom.95715.js"></script>
+	<script src="http://cdn.ypcs.fi/media/common/js/modernizr.custom.80952.js"></script>
+
 	<link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
     <link rel="shortcut icon" href="http://cdn.ypcs.fi/favicon.ico" type="image/vnd.microsoft.icon"/>
 	<!--
@@ -60,29 +65,27 @@
             <hgroup>
                 <h1><a href="/">Ville Korhonen (ypcs.fi)</a></h1>
 
-                <h2 id="tagline">Tulevaisuuden visioita Hankasalmelle</h2>
+                <h2 id="tagline"></h2>
 
             </hgroup>
+
+            
         </header>
         
         <nav id="mainmenu">
             <ul>
     <li><a href="/">Etusivu</a></li>
-    <li><a href="/2012/kunnallisvaalit/">Kunnallisvaalit 2012</a>
-        <ul>
-            <li><a href="/2012/kunnallisvaalit/kuka/">Kuka?</a></li>
-            <li><a href="/2012/kunnallisvaalit/mita/">Mitä?</a></li>
-            <li><a href="/2012/kunnallisvaalit/historia/">Lyhyt henkilöhistoria</a></li>
-            <li><a href="/2012/kunnallisvaalit/sidonnaisuudet/">Sidonnaisuudet</a></li>
-            <li><a href="/2012/kunnallisvaalit/rahoitus/">Vaalirahoitus</a></li>
-            <li><a href="/2012/kunnallisvaalit/suosittelen/">Suosittelen!</a></li>
-        </ul>
-    </li>
+<!--
+    <li><a href="/2012/kunnallisvaalit/kuka/">Kuka?</a></li>
     <li><a href="/2012/kunnallisvaalit/tue-kampanjaa/">Tue</a></li>
+-->
     <li><a href="/yhteystiedot/">Yhteystiedot</a></li>
 </ul>
 
         </nav>
+
+
+        <div id="fblikebox" class="fb-like" data-href="https://www.facebook.com/vipekorh" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" style="position: absolute; top: 1em; right; 1em"></div>
 
         <div id="main" role="main">
 			
@@ -93,8 +96,7 @@
 			
 			
 			
-            
-            
+
 			<img src="http://cdn.ypcs.fi/media/img/tumbeasts/tbrun1_640.png" alt="Tumbeast running away with file you are looking for!"/>
 <p>Hakemaasi sivua ei löytynyt.</p>
 
@@ -111,7 +113,7 @@
         <footer>
 
             <p class="small quiet clear">
-    &copy; 1998-2012 Ville Korhonen &middot; Sivujen lähdekoodi löytyy <a href="https://github.com/ypcs/ypcs.github.com">GitHubista</a> &middot; <a href="http://feeds.feedburner.com/ypcs" rel="alternate" type="application/atom+xml" class="atom">ATOM</a> &middot; <a href="http://ypcs.fi/sitemap/">Sitemap</a></p>
+    &copy; 1998-2013 Ville Korhonen &middot; Sivujen lähdekoodi löytyy <a href="https://github.com/ypcs/ypcs.github.com">GitHubista</a> &middot; <a href="http://feeds.feedburner.com/ypcs" rel="alternate" type="application/atom+xml" class="atom">ATOM</a> &middot; <a href="http://ypcs.fi/sitemap/">Sitemap</a></p>
 <p><a href="https://twitter.com/ypcs" class="twitter-follow-button" data-show-count="false">Follow @ypcs</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 <p class="small quiet">
@@ -143,15 +145,27 @@ function load_script(d, s, id, url) {
     }
 }
 
+window.fbAsyncInit = function() {
+    FB.init({
+        appId: '479137325447561',
+        channelUrl: '//ypcs.fi/misc/channel/',
+        status: true,
+        cookie: true,
+        xfbml: false
+    });
+
+};
+
 (load_script(document, "script", "twitter-wjs", "https://platform.twitter.com/widgets.js"));
 (load_script(document, "script", "twitter-widget", "http://widgets.twimg.com/j/2/widget.js"));
 (load_script(document, "script", "google-plusone", "https://apis.google.com/js/plusone.js"));
-(load_script(document, "script", "facebook-jssdk", "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=479137325447561"));
+(load_script(document, "script", "facebook-jssdk", "https://connect.facebook.net/fi_FI/all.js#xfbml=1&appId=479137325447561"));
 </script>
 
 
     
-	<script type="text/javascript">
+	
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-420043-25']);
@@ -164,6 +178,8 @@ function load_script(d, s, id, url) {
   })();
 
 </script>
+
+
 </body>
 </html>
-<!-- Compiled: 2012-09-21T13:22:54-07:00 -->
+<!-- Compiled: 2013-01-08T20:37:26-08:00 -->
