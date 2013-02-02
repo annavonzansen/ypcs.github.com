@@ -16,6 +16,7 @@ bundles:
         contents:
             - css/theme_ypcsfi.scss
             - css/theme_vihreat.scss
+            - css/theme_keyboard.css
     css_theme_code:
         filters: scss
         output: gen/theme_code.tmp.css
@@ -28,7 +29,7 @@ bundles:
         contents:
             - common/css/html5reset-1.6.1.css
             - gen/common.tmp.css
-            - gen/theme_code.tmp.css
+            - gen/theme.tmp.css
     css_code:
         filters: cssrewrite, cssmin
         output: gen/styles.code-%(version)s.css
