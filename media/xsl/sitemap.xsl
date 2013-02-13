@@ -85,7 +85,7 @@ layout: nil
 					</table>
 				</div>
 				<div id="footer">
-					&copy; 2013 Ville Korhonen / ville@xd.fi
+					(c) 2013 Ville Korhonen / ville@xd.fi
 				</div>
 			</body>
 		</html>
