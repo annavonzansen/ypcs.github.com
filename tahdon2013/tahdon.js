@@ -38,7 +38,7 @@ $(document).ready(function() {
         }
         
         var dm = new Date(md);
-        $("#stats").text("Allekirjoituksia " + dm.getHours() + ':' + dm.getMinutes() + ' = ' + m + 'kpl');
+        $("#stats").text("Allekirjoituksia " + m  + 'kpl');
         
         var plot = $.plot('#chart', [{
             data: items,
