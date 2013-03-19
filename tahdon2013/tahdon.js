@@ -51,7 +51,16 @@ $(document).ready(function() {
             ],
             color: "#ff0000",
             label: "Eduskuntakäsittelyn allekirjoitusraja"
-        }], {
+        },
+        {
+            data: [
+                [items[0][0], 70000],
+                [items[items.length - 1][0], 70000]
+            ],
+            color: "#ccffcc",
+            label: "Turkistarhausaloitteen allekirjoittajia (noin)"
+        },
+        ], {
             xaxis: {
                 mode: "time"
             },
