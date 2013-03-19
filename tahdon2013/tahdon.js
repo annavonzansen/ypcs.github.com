@@ -43,6 +43,14 @@ $(document).ready(function() {
         var plot = $.plot('#chart', [{
             data: items,
             label: "Allekirjoituksia"
+        },
+        {
+            data: [
+                [items[0][0], 50000],
+                [items[items.length - 1][0], 50000]
+            ],
+            color: "#ff0000",
+            label: "Eduskuntakäsittelyn allekirjoitusraja"
         }], {
             xaxis: {
                 mode: "time"
