@@ -14,3 +14,7 @@ html, body {
     color: silver;
     text-decoration: none;
 }
+
+#stats {
+font-weight: bold;
+}
