@@ -1,0 +1,16 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.small {
+    font-size: 0.75em;
+}
+
+.quiet {
+    color: silver;
+}
+
+.quiet a {
+    color: silver;
+    text-decoration: none;
+}
