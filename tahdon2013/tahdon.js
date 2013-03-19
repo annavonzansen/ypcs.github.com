@@ -34,7 +34,7 @@ $(document).ready(function() {
             // fix utc => utc+2
             items[i][0] = (items[i][0] + 2 * 3600)* 1000.0;
             if (items[i][1] > m) {m = items[i][1];}
-            if (items[i][0] > md) (md = items[i][0];}
+            if (items[i][0] > md) {md = items[i][0];}
         }
         
         var dm = new Date(md);
