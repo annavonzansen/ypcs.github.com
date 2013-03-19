@@ -54,8 +54,8 @@ $(document).ready(function() {
         },
         {
             data: [
-                [items[0][0], 70000],
-                [items[items.length - 1][0], 70000]
+                [items[0][0], 69381],
+                [items[items.length - 1][0], 69381]
             ],
             color: "#ccffcc",
             label: "Turkistarhausaloitteen allekirjoittajia (noin)"
