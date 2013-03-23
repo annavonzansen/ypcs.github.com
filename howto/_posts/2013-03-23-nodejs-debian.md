@@ -14,7 +14,7 @@ language: en
 This is an updated version of [a previous guide](http://ypcs.fi/howto/2012/10/09/nodejs-debian/).
 
 # Installation
-Node.js is currently available in Debian unstable (sid) (version 0.6.19) AND Debian experimental (version 0.10.1!!!). This guide shows you how to install from experimental. If you wan't to install from sid, please see previous guide. (Adding experimental to sources.list doesn't need apt-pinning, sid does.)
+Node.js is currently available in Debian unstable (sid) (version 0.6.19) AND Debian experimental (version 0.10.1!!!). This guide shows you how to install from experimental. If you want to install from sid, please see previous guide. (Adding experimental to sources.list doesn't need apt-pinning, sid does.)
 
 ## /etc/apt/sources.list
     deb http://ftp.fi.debian.org/debian/ wheezy main non-free contrib
