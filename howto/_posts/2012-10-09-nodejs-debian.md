@@ -11,6 +11,8 @@ description: How to set-up node.js in Debian wheezy
 language: en
 ---
 
+See also an [updated version](http://ypcs.fi/howto/2013/03/23/nodejs-debian/), which shows how to install node.js 0.10.1 from experimental repos. (This guide uses Debian unstable, which has currently node.js 0.6.19.)
+
 # Installation
 Node.js is currently available in Debian unstable (sid) repositories. You can add sid repositories to wheezy without mixing too much packages using apt-pinning.
 
