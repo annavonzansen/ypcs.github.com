@@ -11,8 +11,9 @@
         <meta property="og:title" content="{{ page.title }}"/>
         <meta property="og:type" content="article"/>
         <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+
         {% if page.image %}
-            <meta property="og:image" content="{{ site.cdn }}/{{ page.image }}"/>
+            <meta property="og:image" content="{{ page.image }}"/>
         {% else %}
             <meta property="og:image" content="{{ site.media.ogimage }}"/>
         {% endif %}
