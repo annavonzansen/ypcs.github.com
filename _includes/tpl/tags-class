@@ -1,1 +1,0 @@
-{% if page.tags %} {{ page.tags|array_to_sentence_string }} {% endif %}
