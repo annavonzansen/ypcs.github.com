@@ -1,18 +1,28 @@
 url: http://ypcs.fi
 cdn: http://cdn.ypcs.fi
-#secure_cdn: https://d3i43hipit3ske.cloudfront.net
-#cdn: https://d3i43hipit3ske.cloudfront.net
 
 title: Ville Korhonen (ypcs.fi)
-description: -
-language: fi
-theme: default
+description:
 
-style_version: 6a90ee08
-scripts_version: feb65480
+options:
+    language:   fi
+    theme:      default
+    elements:
+        description:    true
+        social:         true
+        menu:           true
 
-author: Ville Korhonen
-email: ville@xd.fi
+media:
+    -   style_version:     xxx
+    -   script_version:    yyy
+    -   ogimage: http://cdn.ypcs.fi/media/img/ogimage.png
+
+author:
+    name:   Ville Korhonen
+    email:  ville@xd.fi
+    url:    http://ypcs.fi/
+    phone:  00358503032101
+    photo:  http://cdn.ypcs.fi/media/img/me.jpg
 
 markdown: rdiscount
 pygments: true
@@ -22,20 +32,29 @@ exclude:
 
 permalink: pretty
 
-# Username(s) for misc services
-github: ypcs
-flattr: ypcs
-twitter: ypcs
-facebook: ypoocs
-feedburner: ypcs
-lastfm: ypcs
-skype: ypoocs
+accounts:
+    github: ypcs
+    twitter:    ypcs
+    facebook:   ypoocs
+    facebookapp: 479137325447561
+    skype:  ypoocs
+    flattr: ypcs
+    feedburner: ypcs
+    lastfm: ypcs
+    analytics: UA-420043-25
+    bitcoin: 1EyXKGMqvbSFo1Dzw9Ci75YHQ3Qr96nB5m
+    googleplus: 102939930956749261004
+    irc: ypcs
+    msvalidate: 8A0446C947E384F2BE52ED4F0397D93E
+    # -   service: googleapi
+    #     -   key: AIzaSyCHoFj29ohnnuctk1KaDHdMCMuM5NB9Pcw
+    #     -   maps:   
+    #         zoom:   13
+    #         size:   200x200
+    #         type:   roadmap
+    #         sensor: false
 
-google_api_key: AIzaSyCHoFj29ohnnuctk1KaDHdMCMuM5NB9Pcw
-maps_zoom: 13
-maps_size: 200x200
-maps_type: roadmap
-maps_sensor: false
-
-#coverphoto: s3/2012/kunnallisvaalit/cover-vaalipaivat.png
-analytics_id: UA-420043-25
+urls:
+    contact:    /yhteystiedot/
+    home:   /
+    license: http://creativecommons.org/licenses/by-sa/3.0/
