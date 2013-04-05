@@ -7,9 +7,6 @@
 [submodule "blog/_posts"]
 	path = blog/_posts
 	url = git://github.com/ypcs/my-blog.git
-[submodule "media/common"]
-	path = media/common
-	url = git://github.com/ypcs/site-media.git
 [submodule "conf"]
 	path = conf
 	url = git://github.com/ypcs/conf.git
