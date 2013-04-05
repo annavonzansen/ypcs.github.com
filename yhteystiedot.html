@@ -1,12 +1,27 @@
 ---
 layout: default
 title: Yhteystiedot
-categories:
- - me
-language: fi
 description: Yhteystiedot, joiden avulla tavoitat minut
+tags:
+    - contact
 ---
 
-{% include contact.html %}
+<p class="alert alert-info"><strong>HUOM!</strong> Käytäthän politiikkaan liittyvissä asioissa sähköpostiosoitetta <a href="mailto:ville.korhonen@vihreat.fi">ville.korhonen@vihreat.fi</a>.</p>
 
-<p>GPG-avaimeni <code><a href="/misc/gpg/">0x792C62DC</a></code> <span class="quiet">(vanha avain <code>CE1AA32B</code>)</span>.</p>
+<div class="vcard me media">
+    <div class="pull-left">
+        <img class="photo" src="{{ site.author.photo }}" alt="Ville Korhonen"/>
+    </div>
+    <ul class="media-body">
+        <li>email: <a href="mailto:{{ site.author.email }}" class="email me">{{ site.author.email }}</a></li>
+        <li>gsm: <a href="tel:{{ site.author.phone }}" class="tel me cell">{{ site.author.phone }}</a></li>
+        <li>twitter: <a href="https://twitter.com/{{ site.accounts.twitter }}" class="url me twitter nickname">{{ site.accounts.twitter }}</a></li>
+        <li>google+: <a rel="author" href="https://plus.google.com/{{ site.accounts.googleplus }}" class="me googleplus">my google+ profile</a></li>
+        <li>facebook (profile): <a href="https://www.facebook.com/{{ site.accounts.facebook }}" class="url me facebook facebook-profile nickname">{{ site.accounts.facebook }}</a></li>
+        <li>skype: <a href="skype://{{ site.accounts.skype }}?call" class="tel me skype nickname">{{ site.accounts.skype }}</a></li>
+        <li>last.fm: <a href="https://www.last.fm/user/{{ site.accounts.lastfm }}" class="url me">{{ site.accounts.lastfm }}</a></li>
+        <li>irc: <span class="nickname">{{ site.accounts.irc }}</span></li>
+        <li>gpg: <code><a href="/misc/gpg/">0x792C62DC</a></code> <span class="quiet">(vanha avain <code>CE1AA32B</code>)</span></p>
+    </ul>
+</div>
+

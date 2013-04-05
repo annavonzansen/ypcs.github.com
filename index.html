@@ -1,18 +1,45 @@
 ---
 layout: default
-categories:
- - index
-nometa: true
-notitle: true
 title: Ville Korhonen
-description: -
-language: fi
+description:
+options:
+    elements:
+        menu:   false
+        title: false
+    language:   fi
+tags:
+    - site-index
 ---
-<p><a href="http://ypcs.fi/tahdon2013/">Tahdon 2013 -allekirjoitusten seuranta ~ reaaliajassa</a></p>
-<p>Voit halutessasi seurata Facebook-päivityksiäni:</p>
-{% include ext/fbsubscribe.html %}
 
-<a class="twitter-timeline" href="https://twitter.com/ypcs" data-widget-id="298997988745953280">Tweets by @ypcs</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<p>bitcoin:1EyXKGMqvbSFo1Dzw9Ci75YHQ3Qr96nB5m</p>
+        
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <h1>Tahdon 2013</h1>
+            <p class="lead">Toteutin reaaliaikaisen visualisoinnin tasa-arvoista avioliittolakia ajavan kansalaisaloitteen allekirjoituksista havainnoillistamaan allekirjoitustahtia. Ensimmäisen vuorokauden aikana allekirjoituksia kertyi yli 100 000kpl.</p>
+            <p>Sivulatauksia palvelulle kertyi muutaman ensimmäisen vuorokauden aikana yli 1.6 miljoonaa. (Lähde: Google Analytics)</p>
+            <a class="btn btn-large btn-success" href="/tahdon2013/">Näytä visualisointi</a>
+        </div>
+
+        <hr>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <a class="twitter-timeline" href="https://twitter.com/ypcs" data-widget-id="298997988745953280">Tweets by @ypcs</a>
+            </div>
+            <div class="span4">
+                <h2>Recent</h2>
+                <ul>
+                {% for p in site.posts %}
+                    <li><a href="{{ p.url }}"><span class="muted small">{{ p.date |date_to_string }}</span> {{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="span4">
+                <h2>Blog</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                <p><a class="btn" href="#">Lue lisää &raquo;</a></p>
+            </div>
+        </div>

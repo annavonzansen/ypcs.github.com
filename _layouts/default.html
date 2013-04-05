@@ -1,100 +1,116 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE html>{% capture language %}{% if page.language %}{{ page.language }}{% else %}{{ site.language }}{% endif %}{% endcapture %}{% capture html_properties %}lang="{{ language }}" prefix="cc: http://creativecommons.org/ns# og: http://ogp.me/ns# dct: http://purl.org/dc/terms/"{% endcapture %}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" {{ html_properties }}> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" {{ html_properties }}> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" {{ html_properties }}> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" {{ html_properties }}> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page-title }} - {{ site.title }}</title>
-        <meta name="description" content="">
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+        {% if page.image %}
+            <meta property="og:image" content="{{ site.cdn }}/{{ page.image }}"/>
+        {% else %}
+            <meta property="og:image" content="{{ site.media.ogimage }}"/>
+        {% endif %}
+
+        <meta property="og:site_name" content="{{ site.title }}"/>
+
+        {% if page.description %}
+            <meta property="og:description" content="{{ page.description | strip_newlines }}"/>
+            <meta name="description" content="{{ page.description | strip_newlines }}"/>
+        {% else %}
+            <meta property="og:description" content="{{ page.content | truncatewords:15 | strip_html | strip_newlines | escape }}"/>
+        {% endif %}
+
+        <meta property="fb:app_id" content="{{ site.accounts.facebookapp }}"/>
+
+
         <meta name="viewport" content="width=device-width">
 
+        {% if page.options.private %}
+        <meta name="robots" content="noindex"/>
+        {% endif %}
+        <meta property="author" content="{{ site.url }}/humans.txt"/>
+
         <link href="http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Boogaloo|Alegreya+SC:400,400italic,700,700italic" rel="stylesheet"/>
-        <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="../static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
-        <link href="../static/css/custom.css" rel="stylesheet"/>
-        <!--<link rel="/media/css/style"-->
+        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+        <link href="/static/css/custom.css" rel="stylesheet"/>
+
+        <script src="/static/js/modernizr-2.6.2.min.js"></script>
 
 
-        <!--<link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">-->
-        <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>->
+        <link rel="license" href="{{ site.urls.license }}"/>
+        <link rel="shortcut icon" href="{{ site.cdn }}/favicon.ico" type="image/vnd.microsoft.icon"/>
+        <!--<link rel="alternate" href="{{ site.url }}/atom.xml" type="application/atom+xml"/>-->
+        <link rel="alternate" href="http://feeds.feedburner.com/{{ site.feedburner }}" type="application/atom+xml"/>
+        
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+        
+        <link rel="search" type="application/opensearchdescription+xml" title="Search {{ site.title }}" href="{{ site.url }}/opensearch.xml" />
+        <meta name="msvalidate.01" content="{{ site.accounts.msvalidate }}"/>
+
+        {% for s in page.scripts.header %}<script src="{{ s }}"></script>{% endfor %}
+        {% for i in page.options.head %}{{ i }}{% endfor %}
     </head>
-    <body>
+    <body class="layout-{{ page.layout }}" id="{{ page.tags.first }}">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
         <div class="container">
-
-        <div class="masthead">
-            <h3 class="muted" id="siteTitle"><a href="{{ site.url }}">Ville Korhonen (ypcs.fi)</a></h3>
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <ul class="nav">
-                            <li class="active"><a href="/">Etusivu</a></li>
-                            <!--<li><a href="/projects/">Projektit</a></li>-->
-                            <!--
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Downloads</a></li>
-                        -->
-                            <li><a href="/about/">Tietoa</a></li>
-                            <li><a href="/contact/">Yhteystiedot</a></li>
-                        </ul>
+            <div class="masthead">
+                <h3 class="muted" id="siteTitle"><a href="{{ site.url }}">Ville Korhonen (ypcs.fi)</a></h3>
+                {% unless page.options.elements.menu == 'false' %}
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <ul class="nav">
+                                <li{% if page.url == site.urls.home %} class="active"{% endif %}><a href="{{ site.urls.home }}">Etusivu</a></li>
+                                <li{% if page.url == site.urls.contact %} class="active"{% endif %}><a href="{{ site.urls.contact }}">Yhteystiedot</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div><!-- /.navbar -->
-        </div>
-
-        <div id="socialMedia">
-            <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-via="ypcs">Tweet</a>
-        </div>
-
-        <!-- Jumbotron -->
-        <div class="jumbotron">
-            <h1>Tahdon 2013</h1>
-            <p class="lead">Toteutin reaaliaikaisen visualisoinnin tasa-arvoista avioliittolakia ajavan kansalaisaloitteen allekirjoituksista havainnoillistamaan allekirjoitustahtia. Ensimmäisen vuorokauden aikana allekirjoituksia kertyi yli 100 000kpl.</p>
-            <p>Sivulatauksia palvelulle kertyi muutaman ensimmäisen vuorokauden aikana yli 1.6 miljoonaa. (Lähde: Google Analytics)</p>
-            <a class="btn btn-large btn-success" href="/tahdon2013/">Näytä visualisointi</a>
-        </div>
-
-        <hr>
-
-        <div class="row-fluid">
-            <div class="span4">
-                <a class="twitter-timeline" href="https://twitter.com/ypcs" data-widget-id="298997988745953280">Tweets by @ypcs</a>
+                </div><!-- /.navbar -->
+                {% endunless %}
             </div>
-            <div class="span4">
-                <h2>Recent</h2>
-                <ul>
-                {% for p in site.posts %}
-                    <li><a href="{{ p.url }}"><span class="muted small">{{ p.date }}</span> {{ p.title }}</a></li>
-                {% endfor %}
-            </ul>
-                <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div>
-            <div class="span4">
-                <h2>Blog</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                <p><a class="btn" href="#">Lue lisää &raquo;</a></p>
-            </div>
-        </div>
 
-        <hr>
+            {% unless page.options.hide_social %}
+            <div id="socialMedia">
+                <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.accounts.twitter }}">Tweet</a>
+            </div>
+            {% endunless %}
 
-        <div class="footer">
-            <p class="vcard small">&copy; 1998-2013 <a href="{{ site.url }}" class="fn home url">Ville Korhonen</a> &middot; <a class="email" href="mailto:ville@xd.fi">ville@xd.fi</a> &middot; <a class="tel" href="tel:+358503032101">+35850 303 2101</a> <span id="currentLocation"></span></p>
-        </div>
+            {% unless page.options.elements.title == false %}
+            <hgroup>
+                <h1 class="pageTitle">{{ page.title }}</h1>
+                {% unless page.options.elements.description == false and page.description != '' %}
+                <h2 class="pageDescription">{{ page.description }}</h2>
+                {% endunless %}
+            </hgroup>
+            {% endunless %}
+
+            {{ content }}
+
+            <hr>
+
+            <div class="footer">
+                <p class="vcard small">&copy; 1998-2013 <a href="{{ site.author.url }}" class="fn home url">{{ site.author.name }}</a> &middot; <a class="email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot; <a class="tel" href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a> <span id="currentLocation"></span></p>
+            </div>
 
         </div> <!-- /container -->
 
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../static/js/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="../static/js/custom.js"></script>
+        <script>window.jQuery || document.write('<script src="/static/js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="/static/js/custom.js"></script>
+
+        {% for s in page.scripts.footer %}<script src="{{ s }}"></script>{% endfor %}
     
         <!-- Twitter -->
         <script>
@@ -116,14 +132,14 @@
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=479137325447561";
+            js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId={{ accounts.facebookapp }}";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
         </script>
 
         <!-- Google Analytics -->
         <script>
-            var _gaq=[['_setAccount','{{ site.analytics_id }}'],['_trackPageview']];
+            var _gaq=[['_setAccount','{{ site.accounts.analytics }}'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
