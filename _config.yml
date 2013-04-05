@@ -15,14 +15,14 @@ options:
 media:
     -   style_version:     xxx
     -   script_version:    yyy
-    -   ogimage: http://cdn.ypcs.fi/media/img/ogimage.png
+    -   ogimage: http://cdn.ypcs.fi/static/img/ogimage.png
 
 author:
     name:   Ville Korhonen
     email:  ville@xd.fi
     url:    http://ypcs.fi/
     phone:  00358503032101
-    photo:  http://cdn.ypcs.fi/media/img/me.jpg
+    photo:  http://cdn.ypcs.fi/static/img/me.jpg
 
 markdown: rdiscount
 pygments: true
