@@ -33,3 +33,8 @@ Module Filename: /usr/lib/x86_64-linux-gnu/opensc-pkcs11.so
 
 ## OpenSSH
 Ks. [ssh-sc -skripti GitHubissa](https://github.com/ypcs/scripts/blob/master/ssh-sc).
+
+
+
+Taikasanoja: FinEID, HST, henkilön sähköinen tunnistaminen. Sähköinen 
+henkilökortti.
