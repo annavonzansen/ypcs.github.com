@@ -39,6 +39,9 @@ Napataan luettelosta pari yhtiötä esimerkiksi.
 
 *VNK = valtioneuvoston kanslia, käytännössä omistajaohjauksesta vastaava ministeri virkamiehineen.*
 
+**TODO** Ero 100%/XX% välillä: miten mahdollisuus vaikuttaa & muiden omistajien etu.
+
+
 ### [Osakeyhtiölaki](http://finlex.fi/fi/laki/ajantasa/2006/20060624)
 #### Luku 1
 > **[8 § Johdon tehtävä](http://finlex.fi/fi/laki/ajantasa/2006/20060624#L1P8)**
@@ -59,7 +62,7 @@ Napataan luettelosta pari yhtiötä esimerkiksi.
 >
 > Osakkeenomistajat voivat 1 momentin estämättä yhtiökokousta pitämättä yksimielisinä päättää yhtiökokoukselle kuuluvasta asiasta. Päätös on kirjattava, päivättävä, numeroitava ja allekirjoitettava. Jos yhtiössä on useampia kuin yksi osakkeenomistaja, vähintään kahden heistä on allekirjoitettava päätös. Kirjattuun päätökseen sovelletaan muuten, mitä yhtiökokouksen pöytäkirjasta säädetään.
 
-**TODO**
+**TODO** = voivat päättää yksimielisellä päätöksellä ~mistä tahansa yrityksen toiminnassa ilman yhtiökokousta
 
 > **[2 § Toimivalta](http://finlex.fi/fi/laki/ajantasa/2006/20060624#L5P2)**
 >
@@ -70,20 +73,25 @@ Napataan luettelosta pari yhtiötä esimerkiksi.
 Eli suomeksi: jos 1§:n mukaan 100% omistajista tahtoo jotain tehdä, he voivat käskeä yhtiötä näin toimimaan. Esimerkiksi olemaan nostamatta rikosilmoitusta asiassa, jossa todellista vahinkoa ei ole syntynyt. Valtio omistaa AS:n, joten saa myös käskeä tekemään tai olemaan tekemättä jotain.
 
 
-## “Hautala puuttui tuomiovaltaan, hang the witch!”
+## “Hautala puuttui tuomiovaltaan, burn the witch!”
 **Lyhyesti:** Eikä puuttunut, hän puuttui valtion omistaman yrityksen päätöksentekoon, mikä on täysin hyväksyttävää, ks. yllä.
 
 ### [Rikoslaki](http://finlex.fi/fi/laki/ajantasa/1889/18890039001)
 
+**TODO** Etsi tähän tapaukseen liittyvät kohdat rikoslaista, niiden rangaistavuus ym. (eli: mistä GP:tä koskenut rikosilmoitus tehtiin)
+
 ### [Esitutkintalaki](http://www.finlex.fi/fi/laki/ajantasa/1987/19870449)
 Mikäli kiinnostaa, [uusi laki astuu voimaan 1.1.2014 alkaen](http://www.finlex.fi/fi/laki/alkup/2011/20110805).
 
+**TODO** avaa poliisi=esitutkintaviranomainen
 
 > **2§**
 
 > Poliisin tai muun esitutkintaviranomaisen on toimitettava esitutkinta, kun sille tehdyn ilmoituksen perusteella tai muutoin on syytä epäillä, että rikos on tehty.
 
 AS teki rikosilmoituksen, mutta omistajaohjauksen kehoituksesta perui rikosilmoituksen.
+**TODO** linkkaa oy-lain kohtaan jossa tämä sallitaan
+
 
 > **3§**
 
@@ -95,7 +103,7 @@ AS teki rikosilmoituksen, mutta omistajaohjauksen kehoituksesta perui rikosilmoi
 >
 > Jos sen osoittaminen, että rikos on tapahtunut, on lain mukaan edellytys johonkin toimenpiteeseen ryhtymiseen tai jonkin etuuden säilyttämiseen, asianomistajarikoksen esitutkinta on toimitettava tarpeellisessa laajuudessa asianomistajan pyynnöstä, vaikkei hän ilmoitakaan vaativansa rikokseen syyllistyneelle rangaistusta.
 
-Ks. pykälän ensimmäinen momentti: tässä tapauksessa teot olivat asianomistajarikoksia, ja rangaistusvaatimus peruutettiin.
+Ks. pykälän ensimmäinen momentti (=1. kappale): tässä tapauksessa teot olivat asianomistajarikoksia, ja rangaistusvaatimus peruutettiin, ks. rikoslaki yllä.
 
 
 
@@ -116,9 +124,9 @@ Tuomiovaltaan kuuluvat tuomioistuimet: käräjäoikeudet jne, laissa listattu ta
 
 Tässä tapauksessa Hautala on avustajansa välityksellä välittänyt Arctia Shippingille viestin, että rikosilmoituksesta tulee luopua. Hän on siis tehnyt päätöksen koskien valtion omaisuutta, mihin hänellä on täysi oikeus. ks. osakeyhtiölaki yllä. Asia ei ole ollut oikeuslaitoksen käsittelyssä, ja ohjeistaminen on kohdistunut valtion omaisuuteen, ei oikeuslaitokseen.
 
-GP:n laivanvaltaukseen liittyneet teot olivat asianomistajarikoksia (en näitä luettele tarkemmin, ks. rikoslaki <>), eli tekoja, joista ei automaattisesti nosteta syytettä, ellei asianomainen (Arctia Shipping) näin vaadi.
+GP:n laivanvaltaukseen liittyneet teot olivat asianomistajarikoksia (ks. rikoslaki) eli tekoja, joista ei automaattisesti nosteta syytettä, ellei asianomainen (Arctia Shipping) näin vaadi (ks. esitutkintalaki).
 
-Tuomiovaltaan puuttumista olisi ollut esimerkiksi se, että rikosilmoitus olisi tehty, ja asian oikeuskäsittely olisi alkanut, ja tässä vaiheessa ministeri olisi joko viestinyt suoraa tuomioistuimelle, tai esimerkiksi antanut julkisuudessa lausunnon siitä, että GP:n aktivistit tulee vapauttaa.
+Tuomiovaltaan puuttumista olisi ollut esimerkiksi se, että rikosilmoitus olisi jätetty perumatta, ja asian oikeuskäsittely olisi alkanut, ja tässä vaiheessa ministeri olisi joko viestinyt suoraa tuomioistuimelle, tai esimerkiksi antanut julkisuudessa lausunnon siitä, että GP:n aktivistit tulee vapauttaa. (Tai: "tuomio on väärä".)
 
 
 ## “No miks se sit eros?!”
