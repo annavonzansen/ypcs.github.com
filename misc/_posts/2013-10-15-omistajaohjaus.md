@@ -9,6 +9,7 @@ tags:
 categories: politics
 description: Omistajaohjaus - mitä saa tehdä, mitä ei, miksi näin?!
 language: fi
+private: true
 ---
 
 **HUOM: KESKENERÄINEN**
