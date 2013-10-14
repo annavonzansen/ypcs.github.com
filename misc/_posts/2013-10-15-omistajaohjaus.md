@@ -12,7 +12,7 @@ language: fi
 private: true
 ---
 
-**HUOM: KESKENERÄINEN**
+**HUOM: KESKENERÄINEN** [Tämä sivu GitHubissa (ml. muutoshistoria)](https://github.com/ypcs/ypcs.github.com/blob/master/misc/_posts/2013-10-15-omistajaohjaus.md)
 
 Koska omistajaohjaus ja omistajaohjauksesta määräävän ministerin asema on tuntunut epäselvältä, kasasin pienen paketin Suomen lakia, joka toivottavasti avaa hieman tilannetta.
 
