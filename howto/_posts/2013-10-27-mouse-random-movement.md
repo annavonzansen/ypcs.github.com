@@ -21,8 +21,10 @@ Workaround was
     rmmod psmouse
 
 If trying to add module back (`modprobe psmouse`), problem is there 
-again. Aargh. Now using external mouse, and hoping that this isn't 
-hardware failure...
+again. Aargh. *UPDATE:* Couple minutes later, I tried again to restore 
+`psmouse` module with modprobe, and it began working again. Yahoo! Ie.
+
+    modprobe psmouse
 
 `dmesg` doesn't show failures related to mouse, mouse was working fine 
 before going to standby, `unattended-upgrades` package is installed, 
@@ -40,3 +42,17 @@ haven't installed any new apps lately, blah blah...
     
 Quick review of `/var/log/dpkg.log` tells, that no packages have been 
 upgraded in last 5 days.
+
+Exact device
+
+    I: Bus=0011 Vendor=0002 Product=0007 Version=01b1
+    N: Name="SynPS/2 Synaptics TouchPad"
+    P: Phys=isa0060/serio1/input0
+    S: Sysfs=/devices/platform/i8042/serio1/input/input21
+    U: Uniq=
+    H: Handlers=mouse1 event12 
+    B: PROP=5
+    B: EV=b
+    B: KEY=e520 10000 0 0 0 0
+    B: ABS=660800011000003
+
